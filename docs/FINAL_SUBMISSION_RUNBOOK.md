@@ -131,7 +131,7 @@ proof/vexa-cloud-proof.webm
 
 The recorder does not open Alibaba Cloud console pages. If a console/service-running clip is needed, record it manually with account emails, API keys, billing pages, and access-key pages hidden.
 
-Upload the main demo video publicly to YouTube, Vimeo, or Youku.
+Upload the main demo video publicly to YouTube, Vimeo, or Facebook Video.
 
 ## 6. Devpost Fields
 
@@ -163,7 +163,7 @@ After the external URLs exist, run:
 ```bash
 npm run final:submission -- \
   --cloud-url <Alibaba Cloud URL> \
-  --video-url <YouTube, Vimeo, or Youku URL> \
+  --video-url <YouTube, Vimeo, or Facebook Video URL> \
   --proof-url <Alibaba Cloud proof recording URL>
 ```
 
@@ -172,12 +172,12 @@ The final gate runs the local submission check, strict readiness audit, strict l
 ```bash
 npm run audit:submission -- \
   --cloud-url <Alibaba Cloud URL> \
-  --video-url <YouTube, Vimeo, or Youku URL> \
+  --video-url <YouTube, Vimeo, or Facebook Video URL> \
   --proof-url <Alibaba Cloud proof recording URL>
 
 npm run verify:submission-links -- \
   --cloud-url <Alibaba Cloud URL> \
-  --video-url <YouTube, Vimeo, or Youku URL> \
+  --video-url <YouTube, Vimeo, or Facebook Video URL> \
   --proof-url <Alibaba Cloud proof recording URL>
 ```
 
@@ -186,7 +186,7 @@ Generate the final copy/paste packet after the Alibaba Cloud URL, public video U
 ```bash
 npm run finalize:devpost -- \
   --cloud-url <Alibaba Cloud URL> \
-  --video-url <YouTube, Vimeo, or Youku URL> \
+  --video-url <YouTube, Vimeo, or Facebook Video URL> \
   --proof-url <Alibaba Cloud proof recording URL>
 ```
 

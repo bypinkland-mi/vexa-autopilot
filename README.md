@@ -141,8 +141,8 @@ npm run qa:browser
 
 `npm run check:submission` runs tests, production build, and the public-safety file check.
 
-After public URLs exist, `npm run verify:submission-links -- --cloud-url <Alibaba Cloud URL> --video-url <YouTube/Vimeo/Youku URL> --proof-url <proof URL>` checks the Devpost-facing links.
+After public URLs exist, `npm run verify:submission-links -- --cloud-url <Alibaba Cloud URL> --video-url <YouTube/Vimeo/Facebook Video URL> --proof-url <proof URL>` checks the Devpost-facing links.
 
 After the Alibaba Cloud app is reachable, `npm run record:cloud-proof -- --cloud-url <Alibaba Cloud URL>` records the public health endpoint, app workflow, approval pause, and Qwen Cloud code proof into `proof/vexa-cloud-proof.webm`.
 
-Use `npm run final:submission -- --cloud-url <Alibaba Cloud URL> --video-url <YouTube/Vimeo/Youku URL> --proof-url <proof URL>` as the final one-command gate before submitting on Devpost.
+Use `npm run final:submission -- --cloud-url <Alibaba Cloud URL> --video-url <YouTube/Vimeo/Facebook Video URL> --proof-url <proof URL>` as the final one-command gate before submitting on Devpost.

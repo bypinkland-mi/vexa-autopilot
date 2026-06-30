@@ -33,18 +33,18 @@ npm run audit:submission
 | Alibaba ECS bootstrap script | ready | deploy/alibaba/bootstrap-ecs.sh |
 | Alibaba cloud-init user-data example | ready | deploy/alibaba/cloud-init.user-data.example |
 | Repository is public with MIT license | ready | https://github.com/bypinkland-mi/vexa-autopilot; visibility=PUBLIC; license=mit; default=main |
-| Latest GitHub CI passed | ready | https://github.com/bypinkland-mi/vexa-autopilot/actions/runs/28461087847; sha=34d503e |
-| Release contains required assets | ready | https://github.com/bypinkland-mi/vexa-autopilot/releases/tag/v0.1-qwen-hackathon; assets=CLOUD_PROOF_RECORDING.md, DEVPOST_FINAL_PACKET.template.md, DEVPOST_REQUIREMENTS_MATRIX.md, EXTERNAL_SUBMISSION_STEPS.md, FINAL_SUBMISSION_GATE_REPORT.md, FINAL_SUBMISSION_RUNBOOK.md, SUBMISSION_BUNDLE_MANIFEST.md, SUBMISSION_LINKS_REPORT.md, SUBMISSION_PACKAGE.md, SUBMISSION_READINESS_REPORT.md, bootstrap-ecs.sh, cloud-init.user-data.example, vexa-autopilot-qwen-hackathon.pptx, vexa-devpost-demo.mp4, vexa-local-demo.mp4, vexa-local-demo.webm, vexa-qwen-hackathon-submission.tar.gz, vexa-qwen-hackathon-submission.tar.gz.sha256 |
+| Latest GitHub CI passed | ready | https://github.com/bypinkland-mi/vexa-autopilot/actions/runs/28461569418; sha=7e2bdf4 |
+| Release contains required assets | ready | https://github.com/bypinkland-mi/vexa-autopilot/releases/tag/v0.1-qwen-hackathon; assets=ALIBABA_CLOUD_DEPLOYMENT.md, CLOUD_PROOF_RECORDING.md, DEVPOST_FINAL_PACKET.template.md, DEVPOST_REQUIREMENTS_MATRIX.md, EXTERNAL_SUBMISSION_STEPS.md, FINAL_SUBMISSION_GATE_REPORT.md, FINAL_SUBMISSION_RUNBOOK.md, SUBMISSION_BUNDLE_MANIFEST.md, SUBMISSION_LINKS_REPORT.md, SUBMISSION_PACKAGE.md, SUBMISSION_READINESS_REPORT.md, bootstrap-ecs.sh, cloud-init.user-data.example, console-one-paste.sh, vexa-autopilot-qwen-hackathon.pptx, vexa-devpost-demo.mp4, vexa-local-demo.mp4, vexa-local-demo.webm, vexa-qwen-hackathon-submission.tar.gz, vexa-qwen-hackathon-submission.tar.gz.sha256 |
 | Devpost MP4 is under 3 minutes and upload-ready | ready | 82.8s; h264 1280x720; audio=aac; size=1287600 bytes |
 | Alibaba CLI installed | ready | 3.4.2 |
 | Alibaba CLI profile configured | pending | ERROR: load configure failed: stat /Users/sammili/.aliyun/config.json: no such file or directory |
 | Alibaba Cloud live URL verifies | pending | Run with --cloud-url <Alibaba Cloud URL> after deployment. |
-| Public demo video URL is accepted platform | pending | Run with --video-url <YouTube, Vimeo, or Youku URL> after upload. |
+| Public demo video URL is accepted platform | pending | Run with --video-url <YouTube, Vimeo, or Facebook Video URL> after upload. |
 | Alibaba Cloud proof recording URL supplied | pending | Run with --proof-url <recording URL> after proof capture. |
 
 ## Final Pending Items
 
 - Alibaba CLI profile configured: ERROR: load configure failed: stat /Users/sammili/.aliyun/config.json: no such file or directory
 - Alibaba Cloud live URL verifies: Run with --cloud-url <Alibaba Cloud URL> after deployment.
-- Public demo video URL is accepted platform: Run with --video-url <YouTube, Vimeo, or Youku URL> after upload.
+- Public demo video URL is accepted platform: Run with --video-url <YouTube, Vimeo, or Facebook Video URL> after upload.
 - Alibaba Cloud proof recording URL supplied: Run with --proof-url <recording URL> after proof capture.

@@ -32,11 +32,11 @@ npm run verify:submission-links
 | Release links report download | ready | https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/SUBMISSION_LINKS_REPORT.md | HTTP 200; content-type=application/octet-stream |
 | Release external submission steps download | ready | https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/EXTERNAL_SUBMISSION_STEPS.md | HTTP 200; content-type=application/octet-stream |
 | Alibaba Cloud live URL workflow | pending |  | Run with --cloud-url <Alibaba Cloud URL> after deployment. |
-| Public demo video URL | pending |  | Run with --video-url <YouTube, Vimeo, or Youku URL> after upload. |
+| Public demo video URL | pending |  | Run with --video-url <YouTube, Vimeo, or Facebook Video URL> after upload. |
 | Alibaba Cloud proof recording URL | pending |  | Run with --proof-url <recording URL> after proof capture. |
 
 ## Final Pending Items
 
 - Alibaba Cloud live URL workflow: Run with --cloud-url <Alibaba Cloud URL> after deployment.
-- Public demo video URL: Run with --video-url <YouTube, Vimeo, or Youku URL> after upload.
+- Public demo video URL: Run with --video-url <YouTube, Vimeo, or Facebook Video URL> after upload.
 - Alibaba Cloud proof recording URL: Run with --proof-url <recording URL> after proof capture.

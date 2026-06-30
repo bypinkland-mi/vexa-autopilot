@@ -11,7 +11,7 @@ Use this file as the final copy/paste surface for Devpost. Do not paste API keys
 ## Required Final URLs
 
 - Live Alibaba Cloud app URL: <Alibaba Cloud URL pending>
-- Public demo video URL: <YouTube, Vimeo, or Youku URL pending>
+- Public demo video URL: <YouTube, Vimeo, or Facebook Video URL pending>
 - Alibaba Cloud proof recording URL: <Alibaba Cloud proof recording URL pending>
 
 ## Devpost Fields
@@ -113,6 +113,6 @@ Before clicking submit:
 1. Confirm the live URL opens from a non-local browser.
 2. Confirm `/api/health` works on the Alibaba Cloud URL.
 3. Confirm `npm run verify:cloud -- <Alibaba Cloud URL pending>` passes.
-4. Confirm the public video URL is YouTube, Vimeo, or Youku.
+4. Confirm the public video URL is YouTube, Vimeo, or Facebook Video.
 5. Confirm the Devpost track is Track 4: Autopilot Agent.
 6. Confirm no API keys, tokens, or private account screenshots are pasted into Devpost.

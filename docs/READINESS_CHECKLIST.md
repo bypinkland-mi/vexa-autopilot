@@ -79,7 +79,7 @@ Observed proof:
    - app flow,
    - `server/qwen-cloud.mjs` code proof.
 7. Upload `docs/demo/vexa-devpost-demo.mp4`, or record a narrated variant using `docs/DEMO_SCRIPT.md`.
-8. Make the demo video public on YouTube, Vimeo, or Youku.
+8. Make the demo video public on YouTube, Vimeo, or Facebook Video.
 9. Upload or attach `docs/presentation/vexa-autopilot-qwen-hackathon.pptx`, or use the release deck download.
 10. Fill Devpost from `docs/DEVPOST_SUBMISSION.md` and verify every item in `docs/SUBMISSION_AUDIT.md`.
 

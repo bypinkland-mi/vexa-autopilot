@@ -82,7 +82,7 @@ if (urls.videoUrl) {
     label: "Public demo video URL",
     status: "pending",
     url: "",
-    evidence: "Run with --video-url <YouTube, Vimeo, or Youku URL> after upload."
+    evidence: "Run with --video-url <YouTube, Vimeo, or Facebook Video URL> after upload."
   });
 }
 
@@ -212,7 +212,8 @@ function isAllowedVideoUrl(value) {
     hostname === "youtu.be" ||
     hostname.endsWith("youtube.com") ||
     hostname.endsWith("vimeo.com") ||
-    hostname.endsWith("youku.com")
+    hostname.endsWith("facebook.com") ||
+    hostname === "fb.watch"
   );
 }
 

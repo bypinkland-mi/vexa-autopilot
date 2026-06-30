@@ -66,7 +66,7 @@ Do not show API keys, billing pages, private account emails, or full access-key 
 
 ## 3. Public Demo Video
 
-Upload `docs/demo/vexa-devpost-demo.mp4` to YouTube, Vimeo, or Youku.
+Upload `docs/demo/vexa-devpost-demo.mp4` to YouTube, Vimeo, or Facebook Video.
 
 Suggested title:
 
@@ -92,7 +92,7 @@ After the three public URLs exist, run:
 ```bash
 npm run final:submission -- \
   --cloud-url <Alibaba Cloud URL> \
-  --video-url <YouTube, Vimeo, or Youku URL> \
+  --video-url <YouTube, Vimeo, or Facebook Video URL> \
   --proof-url <Alibaba Cloud proof recording URL>
 ```
 
@@ -101,17 +101,17 @@ If you need to inspect the individual layers, run:
 ```bash
 npm run audit:submission -- \
   --cloud-url <Alibaba Cloud URL> \
-  --video-url <YouTube, Vimeo, or Youku URL> \
+  --video-url <YouTube, Vimeo, or Facebook Video URL> \
   --proof-url <Alibaba Cloud proof recording URL>
 
 npm run verify:submission-links -- \
   --cloud-url <Alibaba Cloud URL> \
-  --video-url <YouTube, Vimeo, or Youku URL> \
+  --video-url <YouTube, Vimeo, or Facebook Video URL> \
   --proof-url <Alibaba Cloud proof recording URL>
 
 npm run finalize:devpost -- \
   --cloud-url <Alibaba Cloud URL> \
-  --video-url <YouTube, Vimeo, or Youku URL> \
+  --video-url <YouTube, Vimeo, or Facebook Video URL> \
   --proof-url <Alibaba Cloud proof recording URL>
 ```
 

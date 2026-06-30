@@ -31,7 +31,7 @@ updated: 2026-06-30
 - Release one-paste bootstrap download: https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/console-one-paste.sh
 - Release submission bundle download: https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/vexa-qwen-hackathon-submission.tar.gz
 - Live demo URL: <Alibaba Cloud URL pending>
-- Public demo video URL: <YouTube, Vimeo, or Youku URL pending>
+- Public demo video URL: <YouTube, Vimeo, or Facebook Video URL pending>
 
 ## Copy
 
@@ -56,7 +56,7 @@ Vexa Autopilot is a Qwen-powered browser-agent sandbox that checks a storefront 
 ## Verification Snapshot
 
 - GitHub repo metadata: `{"defaultBranchRef":{"name":"main"},"licenseInfo":{"key":"mit","name":"MIT License","nickname":""},"url":"https://github.com/bypinkland-mi/vexa-autopilot","visibility":"PUBLIC"}`
-- Latest GitHub CI at generation time: `[{"conclusion":"success","headSha":"34d503eff6bc9c71abce09056dc2d07e8fb55e26","status":"completed","url":"https://github.com/bypinkland-mi/vexa-autopilot/actions/runs/28461087847"}]`
+- Latest GitHub CI at generation time: `[{"conclusion":"success","headSha":"7e2bdf4902ad8b39a0d0c8ef8a3647fe6443ed2e","status":"completed","url":"https://github.com/bypinkland-mi/vexa-autopilot/actions/runs/28461569418"}]`
 - Alibaba CLI version: `3.4.2`
 - Alibaba profile: `ERROR: load configure failed: stat /Users/sammili/.aliyun/config.json: no such file or directory`
 
@@ -66,5 +66,5 @@ Vexa Autopilot is a Qwen-powered browser-agent sandbox that checks a storefront 
 2. Deploy the backend on Alibaba Cloud.
 3. Run `npm run verify:cloud -- <cloud-url>`.
 4. Record or link Alibaba Cloud proof.
-5. Upload `docs/demo/vexa-devpost-demo.mp4` or a narrated variant to YouTube, Vimeo, or Youku.
+5. Upload `docs/demo/vexa-devpost-demo.mp4` or a narrated variant to YouTube, Vimeo, or Facebook Video.
 6. Paste the final URLs into Devpost and submit.

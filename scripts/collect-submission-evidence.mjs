@@ -112,7 +112,7 @@ updated: 2026-06-30
 - Release one-paste bootstrap download: ${releaseOnePasteUrl}
 - Release submission bundle download: ${releaseSubmissionBundleUrl}
 - Live demo URL: <Alibaba Cloud URL pending>
-- Public demo video URL: <YouTube, Vimeo, or Youku URL pending>
+- Public demo video URL: <YouTube, Vimeo, or Facebook Video URL pending>
 
 ## Copy
 
@@ -135,7 +135,7 @@ ${artifactLines.join("\n")}
 2. Deploy the backend on Alibaba Cloud.
 3. Run \`npm run verify:cloud -- <cloud-url>\`.
 4. Record or link Alibaba Cloud proof.
-5. Upload \`docs/demo/vexa-devpost-demo.mp4\` or a narrated variant to YouTube, Vimeo, or Youku.
+5. Upload \`docs/demo/vexa-devpost-demo.mp4\` or a narrated variant to YouTube, Vimeo, or Facebook Video.
 6. Paste the final URLs into Devpost and submit.
 `;
 

@@ -70,7 +70,7 @@ await writeFile(
     ...includedFiles.map((file) => `- ${file}`),
     "",
     "Final command after public URLs exist:",
-    "npm run final:submission -- --cloud-url <Alibaba Cloud URL> --video-url <YouTube/Vimeo/Youku URL> --proof-url <proof URL>"
+    "npm run final:submission -- --cloud-url <Alibaba Cloud URL> --video-url <YouTube/Vimeo/Facebook Video URL> --proof-url <proof URL>"
   ].join("\n"),
   "utf8"
 );
