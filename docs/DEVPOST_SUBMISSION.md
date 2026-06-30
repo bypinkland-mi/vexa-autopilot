@@ -56,7 +56,7 @@ Vexa does not control a real user browser profile, does not access external site
 
 - Deploy to Alibaba Cloud and attach the public URL.
 - Record the required Alibaba Cloud proof clip.
-- Record the final 3-minute demo video.
+- Upload the prepared under-3-minute Devpost demo video.
 - Attach the presentation deck.
 
 ## Links To Prepare
@@ -67,7 +67,9 @@ Vexa does not control a real user browser profile, does not access external site
 - Alibaba ECS deployment bundle: `https://github.com/bypinkland-mi/vexa-autopilot/tree/main/deploy/alibaba`
 - Live demo: `<Alibaba Cloud URL>`
 - Demo video: `<public YouTube, Vimeo, or Youku URL>`
-- Local video artifact to upload: `docs/demo/vexa-local-demo.mp4`
+- Devpost video artifact to upload: `docs/demo/vexa-devpost-demo.mp4`
+- Raw UI recording artifact: `docs/demo/vexa-local-demo.mp4`
 - Slides: `https://github.com/bypinkland-mi/vexa-autopilot/blob/main/docs/presentation/vexa-autopilot-qwen-hackathon.pptx`
+- Release Devpost MP4 download: `https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/vexa-devpost-demo.mp4`
 - Release MP4 download: `https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/vexa-local-demo.mp4`
 - Release deck download: `https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/vexa-autopilot-qwen-hackathon.pptx`

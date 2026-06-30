@@ -9,9 +9,11 @@ const releaseUrl = `${repoUrl}/releases/tag/v0.1-qwen-hackathon`;
 const codeProofUrl = `${repoUrl}/blob/main/server/qwen-cloud.mjs`;
 const deckUrl = `${repoUrl}/blob/main/docs/presentation/vexa-autopilot-qwen-hackathon.pptx`;
 const videoArtifactUrl = `${repoUrl}/blob/main/docs/demo/vexa-local-demo.mp4`;
+const finalDemoArtifactUrl = `${repoUrl}/blob/main/docs/demo/vexa-devpost-demo.mp4`;
 const alibabaDeployBundleUrl = `${repoUrl}/tree/main/deploy/alibaba`;
 const releaseDeckUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/vexa-autopilot-qwen-hackathon.pptx`;
 const releaseVideoUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/vexa-local-demo.mp4`;
+const releaseFinalDemoUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/vexa-devpost-demo.mp4`;
 const releasePackageUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/SUBMISSION_PACKAGE.md`;
 
 const checks = {
@@ -38,6 +40,7 @@ const checks = {
 
 const artifacts = [
   ["Presentation deck", "docs/presentation/vexa-autopilot-qwen-hackathon.pptx"],
+  ["Devpost demo MP4", "docs/demo/vexa-devpost-demo.mp4"],
   ["Demo video MP4", "docs/demo/vexa-local-demo.mp4"],
   ["Demo video WebM", "docs/demo/vexa-local-demo.webm"],
   ["Alibaba ECS deployment bundle", "deploy/alibaba"]
@@ -76,8 +79,10 @@ updated: 2026-06-30
 - Qwen / Alibaba Cloud code proof: ${codeProofUrl}
 - Alibaba ECS deployment bundle: ${alibabaDeployBundleUrl}
 - Slides: ${deckUrl}
-- Demo video artifact to upload: ${videoArtifactUrl}
+- Devpost demo video artifact to upload: ${finalDemoArtifactUrl}
+- Raw UI recording artifact: ${videoArtifactUrl}
 - Release deck download: ${releaseDeckUrl}
+- Release Devpost MP4 download: ${releaseFinalDemoUrl}
 - Release MP4 download: ${releaseVideoUrl}
 - Release submission package download: ${releasePackageUrl}
 - Live demo URL: <Alibaba Cloud URL pending>
@@ -104,7 +109,7 @@ ${artifactLines.join("\n")}
 2. Deploy the backend on Alibaba Cloud.
 3. Run \`npm run verify:cloud -- <cloud-url>\`.
 4. Record or link Alibaba Cloud proof.
-5. Upload \`docs/demo/vexa-local-demo.mp4\` or a narrated variant to YouTube, Vimeo, or Youku.
+5. Upload \`docs/demo/vexa-devpost-demo.mp4\` or a narrated variant to YouTube, Vimeo, or Youku.
 6. Paste the final URLs into Devpost and submit.
 `;
 

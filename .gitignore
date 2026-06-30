@@ -10,6 +10,7 @@ deploy/alibaba/env.alibaba
 coverage/
 tmp/
 .cache/
+docs/demo/edit/
 *.tsbuildinfo
 vite.config.js
 vite.config.d.ts

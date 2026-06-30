@@ -105,7 +105,7 @@ Expected:
 Record two separate public-safe clips:
 
 - Alibaba Cloud proof: console/service running, public URL, `/api/health`, app workflow, and code link to `server/qwen-cloud.mjs`.
-- Main demo video: upload `docs/demo/vexa-local-demo.mp4`, or record a narrated version under/about three minutes using `docs/DEMO_SCRIPT.md`.
+- Main demo video: upload `docs/demo/vexa-devpost-demo.mp4`, or record a narrated version under/about three minutes using `docs/DEMO_SCRIPT.md`.
 
 Upload the main demo video publicly to YouTube, Vimeo, or Youku.
 
@@ -116,7 +116,7 @@ Use:
 - Project name: `Vexa Autopilot`
 - Track: `Track 4: Autopilot Agent`
 - GitHub release package: `https://github.com/bypinkland-mi/vexa-autopilot/releases/tag/v0.1-qwen-hackathon`
-- Local video artifact: `docs/demo/vexa-local-demo.mp4`
+- Devpost video artifact: `docs/demo/vexa-devpost-demo.mp4`
 - Text copy: `docs/DEVPOST_SUBMISSION.md`
 - Architecture: `docs/ARCHITECTURE.md`
 - Slides: `docs/presentation/vexa-autopilot-qwen-hackathon.pptx`

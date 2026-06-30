@@ -24,7 +24,7 @@ This audit maps the official Qwen Cloud Hackathon requirements to concrete Vexa 
 | Alibaba Cloud backend proof | `Dockerfile`, `deploy/alibaba/`, `docs/ALIBABA_CLOUD_DEPLOYMENT.md`, and `server/qwen-cloud.mjs` are ready | Alibaba Cloud deployment/proof recording pending |
 | Code file showing Alibaba Cloud service/API use | `https://github.com/bypinkland-mi/vexa-autopilot/blob/main/server/qwen-cloud.mjs` shows DashScope/Qwen API usage | Ready |
 | Architecture diagram | `docs/ARCHITECTURE.md` includes a Mermaid architecture diagram showing UI, API, Qwen Cloud/local Qwen, fallback, runner, sandbox, and approval gate | Ready |
-| Demo video under/about 3 minutes | `docs/demo/vexa-local-demo.mp4` is a 1280x720 H.264 upload-ready recording artifact; the release MP4 is at `https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/vexa-local-demo.mp4`; `docs/DEMO_SCRIPT.md` gives a fuller three-minute narration script | Local/release artifact ready; public video-platform upload pending |
+| Demo video under/about 3 minutes | `docs/demo/vexa-devpost-demo.mp4` is a 1280x720 H.264/AAC 82.8-second Devpost-ready demo; `docs/demo/vexa-local-demo.mp4` remains the raw UI recording; `docs/DEMO_SCRIPT.md` gives a fuller narration script | Local artifact ready; release upload and public video-platform upload pending |
 | Public video URL | Use YouTube, Vimeo, or Youku according to official rules | Pending |
 | Presentation deck | `docs/presentation/vexa-autopilot-qwen-hackathon.pptx` is an 8-slide deck covering product, workflow, architecture, safety, evidence, and remaining gates; release download is available | Ready |
 | Text description | `docs/DEVPOST_SUBMISSION.md` includes one-liner, inspiration, what it does, build notes, safety, and next steps | Ready |
@@ -37,7 +37,7 @@ This audit maps the official Qwen Cloud Hackathon requirements to concrete Vexa 
 1. Public Alibaba Cloud app URL.
 2. `/api/health` response from the Alibaba Cloud URL.
 3. Alibaba Cloud proof recording link.
-4. Public demo video URL after uploading `docs/demo/vexa-local-demo.mp4` or a narrated recording.
+4. Public demo video URL after uploading `docs/demo/vexa-devpost-demo.mp4` or a narrated recording.
 
 ## Non-Submission Local Evidence
 

@@ -8,6 +8,14 @@ updated: 2026-06-30
 
 Target length: 2.5 to 3 minutes.
 
+Prepared artifact: `docs/demo/vexa-devpost-demo.mp4` is an 82.8-second silent/captioned Devpost-ready cut generated with:
+
+```bash
+npm run render:devpost-demo
+```
+
+Use this MP4 for a quick public upload, or use the script below to record a fuller narrated variant.
+
 ## 0:00 - 0:20 Problem
 
 "Browser agents should not just click around. For business workflows, they need evidence, policy checks, and a human approval gate before anything customer-facing happens."

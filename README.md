@@ -51,6 +51,7 @@ The demo now includes two paths:
 - Submission audit: [docs/SUBMISSION_AUDIT.md](docs/SUBMISSION_AUDIT.md)
 - Final submission runbook: [docs/FINAL_SUBMISSION_RUNBOOK.md](docs/FINAL_SUBMISSION_RUNBOOK.md)
 - Demo script: [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md)
+- Devpost-ready demo video: [docs/demo/vexa-devpost-demo.mp4](docs/demo/vexa-devpost-demo.mp4)
 - Local demo recording: [docs/demo/vexa-local-demo.webm](docs/demo/vexa-local-demo.webm)
 - Upload-ready MP4 demo: [docs/demo/vexa-local-demo.mp4](docs/demo/vexa-local-demo.mp4)
 - Presentation outline: [docs/PRESENTATION_OUTLINE.md](docs/PRESENTATION_OUTLINE.md)
