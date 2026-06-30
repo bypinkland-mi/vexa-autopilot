@@ -73,3 +73,4 @@ Vexa does not control a real user browser profile, does not access external site
 - Release Devpost MP4 download: `https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/vexa-devpost-demo.mp4`
 - Release MP4 download: `https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/vexa-local-demo.mp4`
 - Release deck download: `https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/vexa-autopilot-qwen-hackathon.pptx`
+- Release final packet template download: `https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/DEVPOST_FINAL_PACKET.template.md`

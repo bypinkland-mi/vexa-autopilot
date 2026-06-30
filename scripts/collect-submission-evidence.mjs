@@ -15,6 +15,7 @@ const releaseDeckUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/vexa-au
 const releaseVideoUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/vexa-local-demo.mp4`;
 const releaseFinalDemoUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/vexa-devpost-demo.mp4`;
 const releasePackageUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/SUBMISSION_PACKAGE.md`;
+const releaseFinalPacketTemplateUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/DEVPOST_FINAL_PACKET.template.md`;
 
 const checks = {
   latestCi: exec("gh", [
@@ -43,6 +44,7 @@ const artifacts = [
   ["Devpost demo MP4", "docs/demo/vexa-devpost-demo.mp4"],
   ["Demo video MP4", "docs/demo/vexa-local-demo.mp4"],
   ["Demo video WebM", "docs/demo/vexa-local-demo.webm"],
+  ["Devpost final packet template", "docs/DEVPOST_FINAL_PACKET.template.md"],
   ["Alibaba ECS deployment bundle", "deploy/alibaba"]
 ];
 
@@ -85,6 +87,7 @@ updated: 2026-06-30
 - Release Devpost MP4 download: ${releaseFinalDemoUrl}
 - Release MP4 download: ${releaseVideoUrl}
 - Release submission package download: ${releasePackageUrl}
+- Release final packet template download: ${releaseFinalPacketTemplateUrl}
 - Live demo URL: <Alibaba Cloud URL pending>
 - Public demo video URL: <YouTube, Vimeo, or Youku URL pending>
 
