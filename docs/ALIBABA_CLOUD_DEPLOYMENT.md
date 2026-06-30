@@ -16,6 +16,10 @@ Use these files as the code evidence:
 - `server/browser-agent.mjs`: Qwen plan execution boundary and sandbox navigation guard.
 - `Dockerfile`: container deployment entrypoint for Alibaba Cloud.
 
+Public code proof link:
+
+https://github.com/bypinkland-mi/vexa-autopilot/blob/main/server/qwen-cloud.mjs
+
 ## Container Build
 
 ```bash

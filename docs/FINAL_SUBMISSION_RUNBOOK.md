@@ -24,7 +24,13 @@ Expected:
 
 ## 2. Publish Public GitHub Repository
 
-Choose the account/owner intentionally. The local `gh` active account may not be the intended public owner.
+The public repository is now:
+
+```text
+https://github.com/bypinkland-mi/vexa-autopilot
+```
+
+If this repo ever needs to be recreated, choose the account/owner intentionally. The local `gh` active account may not be the intended public owner.
 
 ```bash
 gh auth status
@@ -38,10 +44,10 @@ After publish:
 gh repo view <chosen-github-user>/vexa-autopilot --web
 ```
 
-Devpost needs the public repository URL and a direct code link to:
+Devpost needs the public repository URL and this direct code link:
 
 ```text
-server/qwen-cloud.mjs
+https://github.com/bypinkland-mi/vexa-autopilot/blob/main/server/qwen-cloud.mjs
 ```
 
 ## 3. Deploy To Alibaba Cloud

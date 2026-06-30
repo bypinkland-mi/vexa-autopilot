@@ -8,7 +8,7 @@ updated: 2026-06-30
 
 ## Current Verdict
 
-Vexa Autopilot is repo-ready and container-smoke-tested. It is not yet fully submitted because the public GitHub URL, Alibaba Cloud deployment URL/proof video, final demo video, and slide upload must be created from Sammi's accounts.
+Vexa Autopilot is public-repo-ready and container-smoke-tested. It is not yet fully submitted because the Alibaba Cloud deployment URL/proof video, final demo video, and slide upload must be created from Sammi's accounts.
 
 ## Completed
 
@@ -28,6 +28,9 @@ Vexa Autopilot is repo-ready and container-smoke-tested. It is not yet fully sub
 - Final submission runbook added.
 - Alibaba Cloud deployment proof guide added.
 - Public-safety checker added.
+- Public GitHub repository published: `https://github.com/bypinkland-mi/vexa-autopilot`.
+- GitHub CI passed on `main`.
+- Cloud URL verifier added: `npm run verify:cloud -- <cloud-url>`.
 
 ## Verified Locally
 
@@ -50,20 +53,19 @@ Observed proof:
 
 ## Still Required Before Devpost Submission
 
-1. Create or choose public GitHub repository.
-2. Push this repo without `.env`, secrets, `node_modules`, `dist`, or `tmp`.
-3. Deploy the Docker image to Alibaba Cloud.
-4. Set `DASHSCOPE_API_KEY`, `QWEN_MODEL`, and `VEXA_FORCE_MOCK=0` in Alibaba Cloud for true Qwen Cloud mode.
-5. Record Alibaba Cloud proof clip:
+1. Deploy the Docker image to Alibaba Cloud.
+2. Set `DASHSCOPE_API_KEY`, `QWEN_MODEL`, and `VEXA_FORCE_MOCK=0` in Alibaba Cloud for true Qwen Cloud mode.
+3. Run `npm run verify:cloud -- <cloud-url>` against the Alibaba Cloud URL.
+4. Record Alibaba Cloud proof clip:
    - console/service running,
    - public URL,
    - `/api/health`,
    - app flow,
    - `server/qwen-cloud.mjs` code proof.
-6. Record final demo video using `docs/DEMO_SCRIPT.md`.
-7. Upload the demo video publicly on YouTube, Vimeo, or Youku.
-8. Prepare/upload slides using `docs/PRESENTATION_OUTLINE.md`.
-9. Fill Devpost from `docs/DEVPOST_SUBMISSION.md` and verify every item in `docs/SUBMISSION_AUDIT.md`.
+5. Record final demo video using `docs/DEMO_SCRIPT.md`.
+6. Upload the demo video publicly on YouTube, Vimeo, or Youku.
+7. Prepare/upload slides using `docs/PRESENTATION_OUTLINE.md`.
+8. Fill Devpost from `docs/DEVPOST_SUBMISSION.md` and verify every item in `docs/SUBMISSION_AUDIT.md`.
 
 ## Known Honest Limitation
 

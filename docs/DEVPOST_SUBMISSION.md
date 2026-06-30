@@ -44,6 +44,10 @@ Browser agents are useful only when they can show what they saw and stop before 
 
 The Qwen integration lives in `server/qwen-cloud.mjs`. It calls the DashScope/Qwen OpenAI-compatible endpoint when `DASHSCOPE_API_KEY` is configured and falls back visibly when the planner is unavailable.
 
+Code proof link:
+
+https://github.com/bypinkland-mi/vexa-autopilot/blob/main/server/qwen-cloud.mjs
+
 ## Safety
 
 Vexa does not control a real user browser profile, does not access external sites, does not send messages, and does not include private Tabi/Nami code. All navigation is restricted to local `/sandbox/*` pages.
@@ -57,7 +61,8 @@ Vexa does not control a real user browser profile, does not access external site
 
 ## Links To Prepare
 
-- Code repository: `<public GitHub URL>`
+- Code repository: `https://github.com/bypinkland-mi/vexa-autopilot`
+- Qwen Cloud code proof: `https://github.com/bypinkland-mi/vexa-autopilot/blob/main/server/qwen-cloud.mjs`
 - Live demo: `<Alibaba Cloud URL>`
 - Demo video: `<public YouTube, Vimeo, or Youku URL>`
 - Slides: `<presentation URL or uploaded PDF>`
