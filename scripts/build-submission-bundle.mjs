@@ -7,6 +7,7 @@ const root = process.cwd();
 const bundleName = "vexa-qwen-hackathon-submission";
 const outDir = path.join(root, "dist/submission");
 const stageDir = path.join(outDir, bundleName);
+const tarPath = path.join(outDir, `${bundleName}.tar`);
 const archivePath = path.join(outDir, `${bundleName}.tar.gz`);
 const shaPath = `${archivePath}.sha256`;
 const manifestPath = path.join(root, "docs/SUBMISSION_BUNDLE_MANIFEST.md");
@@ -75,8 +76,21 @@ await writeFile(
   "utf8"
 );
 
-const tarResult = spawnSync("tar", ["-czf", archivePath, "-C", outDir, bundleName], {
+const touchResult = spawnSync("find", [stageDir, "-exec", "touch", "-h", "-t", "202606300000", "{}", "+"], {
   cwd: root,
+  encoding: "utf8",
+  stdio: ["ignore", "pipe", "pipe"]
+});
+
+if (touchResult.status !== 0) {
+  console.error(touchResult.stdout);
+  console.error(touchResult.stderr);
+  throw new Error("Failed to normalize submission bundle timestamps.");
+}
+
+const tarResult = spawnSync("tar", ["-cf", tarPath, "-C", outDir, bundleName], {
+  cwd: root,
+  env: { ...process.env, COPYFILE_DISABLE: "1" },
   encoding: "utf8",
   stdio: ["ignore", "pipe", "pipe"]
 });
@@ -85,6 +99,18 @@ if (tarResult.status !== 0) {
   console.error(tarResult.stdout);
   console.error(tarResult.stderr);
   throw new Error("Failed to build submission bundle archive.");
+}
+
+const gzipResult = spawnSync("gzip", ["-n", "-f", tarPath], {
+  cwd: root,
+  encoding: "utf8",
+  stdio: ["ignore", "pipe", "pipe"]
+});
+
+if (gzipResult.status !== 0) {
+  console.error(gzipResult.stdout);
+  console.error(gzipResult.stderr);
+  throw new Error("Failed to gzip submission bundle archive.");
 }
 
 const archiveBuffer = await readFile(archivePath);
