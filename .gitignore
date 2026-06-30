@@ -10,6 +10,9 @@ deploy/alibaba/env.alibaba
 coverage/
 tmp/
 .cache/
+proof/*.webm
+proof/*.mp4
+proof/*.mov
 docs/demo/edit/
 *.tsbuildinfo
 vite.config.js

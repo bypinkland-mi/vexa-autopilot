@@ -18,6 +18,7 @@
     "check:submission": "npm test && npm run build && npm run check:public && npm run check:deploy",
     "verify:cloud": "node scripts/verify-cloud-url.mjs",
     "record:demo": "npm run build && node scripts/record-demo.mjs",
+    "record:cloud-proof": "node scripts/record-cloud-proof.mjs",
     "render:devpost-demo": "python3 scripts/render-devpost-demo.py",
     "collect:submission": "node scripts/collect-submission-evidence.mjs",
     "audit:submission": "node scripts/audit-submission-readiness.mjs",

@@ -20,6 +20,7 @@ const releaseReadinessReportUrl = `${repoUrl}/releases/download/v0.1-qwen-hackat
 const releaseLinksReportUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/SUBMISSION_LINKS_REPORT.md`;
 const releaseFinalGateReportUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/FINAL_SUBMISSION_GATE_REPORT.md`;
 const releaseRequirementsMatrixUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/DEVPOST_REQUIREMENTS_MATRIX.md`;
+const releaseCloudProofRecordingUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/CLOUD_PROOF_RECORDING.md`;
 const releaseSubmissionBundleUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/vexa-qwen-hackathon-submission.tar.gz`;
 
 const checks = {
@@ -55,6 +56,7 @@ const artifacts = [
   ["Submission readiness report", "docs/SUBMISSION_READINESS_REPORT.md"],
   ["Submission links report", "docs/SUBMISSION_LINKS_REPORT.md"],
   ["Final submission gate report", "docs/FINAL_SUBMISSION_GATE_REPORT.md"],
+  ["Cloud proof recording guide", "docs/CLOUD_PROOF_RECORDING.md"],
   ["External submission steps", "docs/EXTERNAL_SUBMISSION_STEPS.md"],
   ["Alibaba ECS deployment bundle", "deploy/alibaba"]
 ];
@@ -103,6 +105,7 @@ updated: 2026-06-30
 - Release links report download: ${releaseLinksReportUrl}
 - Release final gate report download: ${releaseFinalGateReportUrl}
 - Release requirements matrix download: ${releaseRequirementsMatrixUrl}
+- Release cloud proof recording guide download: ${releaseCloudProofRecordingUrl}
 - Release submission bundle download: ${releaseSubmissionBundleUrl}
 - Live demo URL: <Alibaba Cloud URL pending>
 - Public demo video URL: <YouTube, Vimeo, or Youku URL pending>

@@ -109,6 +109,20 @@ Record two separate public-safe clips:
 - Alibaba Cloud proof: console/service running, public URL, `/api/health`, app workflow, and code link to `server/qwen-cloud.mjs`.
 - Main demo video: upload `docs/demo/vexa-devpost-demo.mp4`, or record a narrated version under/about three minutes using `docs/DEMO_SCRIPT.md`.
 
+Use the public-safe recorder for the URL/app/code portion:
+
+```bash
+npm run record:cloud-proof -- --cloud-url <Alibaba Cloud URL>
+```
+
+Default output:
+
+```text
+proof/vexa-cloud-proof.webm
+```
+
+The recorder does not open Alibaba Cloud console pages. If a console/service-running clip is needed, record it manually with account emails, API keys, billing pages, and access-key pages hidden.
+
 Upload the main demo video publicly to YouTube, Vimeo, or Youku.
 
 ## 6. Devpost Fields

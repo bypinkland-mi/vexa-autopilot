@@ -33,13 +33,26 @@ npm run verify:cloud -- http://<ecs-public-ip>:8080
 
 ## 2. Proof Recording
 
-Record a short public-safe clip that shows:
+First record the public URL/app/code proof from this repo:
 
-1. Alibaba Cloud ECS instance or service is running.
-2. Public app URL opens.
-3. `<cloud-url>/api/health` works.
-4. Vexa browser-agent flow reaches the approval pause.
-5. GitHub code proof link opens: `https://github.com/bypinkland-mi/vexa-autopilot/blob/main/server/qwen-cloud.mjs`.
+```bash
+npm run record:cloud-proof -- --cloud-url <Alibaba Cloud URL>
+```
+
+This writes:
+
+```text
+proof/vexa-cloud-proof.webm
+```
+
+The automated clip shows:
+
+1. Public app URL opens.
+2. `<cloud-url>/api/health` works.
+3. Vexa browser-agent flow reaches the approval pause.
+4. GitHub code proof link opens: `https://github.com/bypinkland-mi/vexa-autopilot/blob/main/server/qwen-cloud.mjs`.
+
+If console proof is required, record a separate short clip showing the Alibaba Cloud ECS instance or service running.
 
 Do not show API keys, billing pages, private account emails, or full access-key pages.
 

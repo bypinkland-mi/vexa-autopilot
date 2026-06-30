@@ -22,6 +22,7 @@ const includedFiles = [
   "docs/SUBMISSION_LINKS_REPORT.md",
   "docs/FINAL_SUBMISSION_GATE_REPORT.md",
   "docs/EXTERNAL_SUBMISSION_STEPS.md",
+  "docs/CLOUD_PROOF_RECORDING.md",
   "docs/DEVPOST_FINAL_PACKET.template.md",
   "docs/FINAL_SUBMISSION_RUNBOOK.md",
   "docs/DEVPOST_SUBMISSION.md",
@@ -39,6 +40,7 @@ const includedFiles = [
   "deploy/alibaba/install-ecs-docker.sh",
   "deploy/alibaba/vexa-autopilot.service",
   "scripts/verify-cloud-url.mjs",
+  "scripts/record-cloud-proof.mjs",
   "scripts/verify-submission-links.mjs",
   "scripts/final-submission-gate.mjs",
   "scripts/finalize-devpost-packet.mjs"

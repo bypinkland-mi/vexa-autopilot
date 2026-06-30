@@ -19,8 +19,8 @@ npm run build:submission-bundle
 - Archive: `dist/submission/vexa-qwen-hackathon-submission.tar.gz`
 - SHA256: `dist/submission/vexa-qwen-hackathon-submission.tar.gz.sha256`
 - Release download: `https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/vexa-qwen-hackathon-submission.tar.gz`
-- SHA256: `15dde8a15dd5a70e6faadeddbd741af96585c851999772413d8c1a96773c3702`
-- Size: `1.6 MB`
+- SHA256: `ad4bf90696ce2100022965b1b7aa3dd988f42725680fe2af44ff84f895d2a8a7`
+- Size: `1.7 MB`
 
 ## Included Files
 
@@ -34,6 +34,7 @@ npm run build:submission-bundle
 - `docs/SUBMISSION_LINKS_REPORT.md`
 - `docs/FINAL_SUBMISSION_GATE_REPORT.md`
 - `docs/EXTERNAL_SUBMISSION_STEPS.md`
+- `docs/CLOUD_PROOF_RECORDING.md`
 - `docs/DEVPOST_FINAL_PACKET.template.md`
 - `docs/FINAL_SUBMISSION_RUNBOOK.md`
 - `docs/DEVPOST_SUBMISSION.md`
@@ -51,6 +52,7 @@ npm run build:submission-bundle
 - `deploy/alibaba/install-ecs-docker.sh`
 - `deploy/alibaba/vexa-autopilot.service`
 - `scripts/verify-cloud-url.mjs`
+- `scripts/record-cloud-proof.mjs`
 - `scripts/verify-submission-links.mjs`
 - `scripts/final-submission-gate.mjs`
 - `scripts/finalize-devpost-packet.mjs`

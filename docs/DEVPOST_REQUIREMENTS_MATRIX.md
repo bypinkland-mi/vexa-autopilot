@@ -27,7 +27,7 @@ Vexa is repo/release-ready, but not fully submitted. The remaining required evid
 | Architecture diagram / technical explanation | `docs/ARCHITECTURE.md`, `docs/presentation/vexa-autopilot-qwen-hackathon.pptx` | ready | Link architecture doc and/or upload deck. |
 | Code shows Qwen / Alibaba Cloud usage | `https://github.com/bypinkland-mi/vexa-autopilot/blob/main/server/qwen-cloud.mjs` | ready | Paste code proof link into Devpost. |
 | Backend runs on Alibaba Cloud | `Dockerfile`, `deploy/alibaba/README.md`, `deploy/alibaba/bootstrap-ecs.sh`, `deploy/alibaba/cloud-init.user-data.example` | pending | Deploy on Alibaba Cloud and keep the public URL available through judging. |
-| Alibaba Cloud proof is provided | `docs/EXTERNAL_SUBMISSION_STEPS.md` describes safe recording scope | pending | Record/link console or deployment proof without secrets. |
+| Alibaba Cloud proof is provided | `docs/CLOUD_PROOF_RECORDING.md`, `scripts/record-cloud-proof.mjs`, `docs/EXTERNAL_SUBMISSION_STEPS.md` describe safe recording scope | pending | Run `npm run record:cloud-proof -- --cloud-url <Alibaba Cloud URL>`, then record/link any required console proof without secrets. |
 | Demo video is under/about 3 minutes | `docs/demo/vexa-devpost-demo.mp4` is 82.8s H.264/AAC; release asset exists | ready locally | Upload to YouTube, Vimeo, or Youku and paste the public URL. |
 | Public demo video URL | `npm run verify:submission-links -- --video-url <url>` validates platform and reachability | pending | Upload video and rerun final gate. |
 | No secrets/private product code in public submission | `scripts/public-safety-check.mjs`, `docs/PROJECT_BOUNDARY.md`, `npm run check:submission` | ready | Keep `.env*` and credentials uncommitted. |

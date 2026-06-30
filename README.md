@@ -56,6 +56,7 @@ The demo now includes two paths:
 - Final submission gate report: [docs/FINAL_SUBMISSION_GATE_REPORT.md](docs/FINAL_SUBMISSION_GATE_REPORT.md)
 - Final submission runbook: [docs/FINAL_SUBMISSION_RUNBOOK.md](docs/FINAL_SUBMISSION_RUNBOOK.md)
 - External submission steps: [docs/EXTERNAL_SUBMISSION_STEPS.md](docs/EXTERNAL_SUBMISSION_STEPS.md)
+- Cloud proof recording guide: [docs/CLOUD_PROOF_RECORDING.md](docs/CLOUD_PROOF_RECORDING.md)
 - Devpost final packet template: [docs/DEVPOST_FINAL_PACKET.template.md](docs/DEVPOST_FINAL_PACKET.template.md)
 - Demo script: [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md)
 - Devpost-ready demo video: [docs/demo/vexa-devpost-demo.mp4](docs/demo/vexa-devpost-demo.mp4)
@@ -140,5 +141,7 @@ npm run qa:browser
 `npm run check:submission` runs tests, production build, and the public-safety file check.
 
 After public URLs exist, `npm run verify:submission-links -- --cloud-url <Alibaba Cloud URL> --video-url <YouTube/Vimeo/Youku URL> --proof-url <proof URL>` checks the Devpost-facing links.
+
+After the Alibaba Cloud app is reachable, `npm run record:cloud-proof -- --cloud-url <Alibaba Cloud URL>` records the public health endpoint, app workflow, approval pause, and Qwen Cloud code proof into `proof/vexa-cloud-proof.webm`.
 
 Use `npm run final:submission -- --cloud-url <Alibaba Cloud URL> --video-url <YouTube/Vimeo/Youku URL> --proof-url <proof URL>` as the final one-command gate before submitting on Devpost.
