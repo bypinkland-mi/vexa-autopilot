@@ -61,7 +61,15 @@ For a plain ECS instance, use the ready bundle in `deploy/alibaba/`. It includes
 Recommended simple path:
 
 1. Create an Ubuntu ECS instance and open inbound TCP `8080`.
-2. Paste `deploy/alibaba/cloud-init.user-data.example` as user-data, or SSH in and run `deploy/alibaba/bootstrap-ecs.sh`.
+2. Run the one-paste bootstrap through Alibaba Cloud Workbench, Cloud Assistant, or SSH:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bypinkland-mi/vexa-autopilot/main/deploy/alibaba/console-one-paste.sh | \
+  sudo -E VEXA_PUBLIC_ORIGIN=http://<ecs-public-ip>:8080 bash
+```
+
+Alternative: paste `deploy/alibaba/cloud-init.user-data.example` as user-data, or SSH in and run `deploy/alibaba/bootstrap-ecs.sh`.
+
 3. For Qwen Cloud mode, set these runtime environment variables on the server:
 
 ```bash

@@ -63,12 +63,21 @@ Any container-capable Alibaba Cloud service is acceptable for the proof video:
 This repo includes a ready-to-use ECS bundle under `deploy/alibaba/`:
 
 - `deploy/alibaba/README.md`: console/SSH deployment steps.
+- `deploy/alibaba/console-one-paste.sh`: one-paste ECS bootstrap for Alibaba Cloud Workbench, Cloud Assistant, or SSH.
 - `deploy/alibaba/docker-compose.yml`: Docker Compose service for Vexa.
 - `deploy/alibaba/env.alibaba.example`: public-safe environment template.
+- `deploy/alibaba/bootstrap-ecs.sh`: idempotent clone/update/install/start helper.
 - `deploy/alibaba/install-ecs-docker.sh`: Ubuntu Docker install helper.
 - `deploy/alibaba/vexa-autopilot.service`: optional systemd wrapper.
 
-After cloning the repo on ECS:
+Fastest ECS command after opening inbound TCP `8080`:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bypinkland-mi/vexa-autopilot/main/deploy/alibaba/console-one-paste.sh | \
+  sudo -E VEXA_PUBLIC_ORIGIN=http://<ecs-public-ip>:8080 bash
+```
+
+Manual path after cloning the repo on ECS:
 
 ```bash
 cp deploy/alibaba/env.alibaba.example deploy/alibaba/env.alibaba

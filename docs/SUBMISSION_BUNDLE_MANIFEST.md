@@ -19,7 +19,7 @@ npm run build:submission-bundle
 - Archive: `dist/submission/vexa-qwen-hackathon-submission.tar.gz`
 - SHA256: `dist/submission/vexa-qwen-hackathon-submission.tar.gz.sha256`
 - Release download: `https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/vexa-qwen-hackathon-submission.tar.gz`
-- SHA256: `ad4bf90696ce2100022965b1b7aa3dd988f42725680fe2af44ff84f895d2a8a7`
+- SHA256: `eed3f2c86dffb4a287178551ddff3b3a39f7f2dade2aee623d83ab5af5a7238c`
 - Size: `1.7 MB`
 
 ## Included Files
@@ -47,6 +47,7 @@ npm run build:submission-bundle
 - `deploy/alibaba/README.md`
 - `deploy/alibaba/docker-compose.yml`
 - `deploy/alibaba/env.alibaba.example`
+- `deploy/alibaba/console-one-paste.sh`
 - `deploy/alibaba/bootstrap-ecs.sh`
 - `deploy/alibaba/cloud-init.user-data.example`
 - `deploy/alibaba/install-ecs-docker.sh`

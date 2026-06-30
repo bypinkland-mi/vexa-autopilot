@@ -6,6 +6,7 @@ const required = [
   "deploy/alibaba/README.md",
   "deploy/alibaba/docker-compose.yml",
   "deploy/alibaba/env.alibaba.example",
+  "deploy/alibaba/console-one-paste.sh",
   "deploy/alibaba/bootstrap-ecs.sh",
   "deploy/alibaba/cloud-init.user-data.example",
   "deploy/alibaba/install-ecs-docker.sh",
@@ -46,6 +47,20 @@ if (!bootstrapText.includes("docker compose -f")) {
 }
 if (/DASHSCOPE_API_KEY=(?!\$\{)[^<\s].*[A-Za-z0-9]/.test(bootstrapText)) {
   failures.push("bootstrap-ecs.sh must not contain a real DASHSCOPE_API_KEY");
+}
+
+const onePasteText = await readFile(path.join(root, "deploy/alibaba/console-one-paste.sh"), "utf8");
+if (!onePasteText.includes("raw.githubusercontent.com/bypinkland-mi/vexa-autopilot")) {
+  failures.push("console-one-paste.sh must document the raw GitHub one-paste URL");
+}
+if (!onePasteText.includes("bootstrap-ecs.sh")) {
+  failures.push("console-one-paste.sh must delegate to bootstrap-ecs.sh");
+}
+if (!onePasteText.includes("VEXA_PUBLIC_ORIGIN")) {
+  failures.push("console-one-paste.sh must support VEXA_PUBLIC_ORIGIN");
+}
+if (/DASHSCOPE_API_KEY=(?!\$\{)[^<\s].*[A-Za-z0-9]/.test(onePasteText)) {
+  failures.push("console-one-paste.sh must not contain a real DASHSCOPE_API_KEY");
 }
 
 const cloudInitText = await readFile(

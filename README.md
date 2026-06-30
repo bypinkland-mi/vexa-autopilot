@@ -69,6 +69,7 @@ The demo now includes two paths:
 - Readiness checklist: [docs/READINESS_CHECKLIST.md](docs/READINESS_CHECKLIST.md)
 - Alibaba Cloud deployment guide: [docs/ALIBABA_CLOUD_DEPLOYMENT.md](docs/ALIBABA_CLOUD_DEPLOYMENT.md)
 - Alibaba ECS deployment bundle: [deploy/alibaba/README.md](deploy/alibaba/README.md)
+- Alibaba ECS one-paste bootstrap: [deploy/alibaba/console-one-paste.sh](deploy/alibaba/console-one-paste.sh)
 - Alibaba ECS bootstrap script: [deploy/alibaba/bootstrap-ecs.sh](deploy/alibaba/bootstrap-ecs.sh)
 - Public-safety boundary: [docs/PROJECT_BOUNDARY.md](docs/PROJECT_BOUNDARY.md)
 

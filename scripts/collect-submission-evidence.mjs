@@ -11,6 +11,8 @@ const deckUrl = `${repoUrl}/blob/main/docs/presentation/vexa-autopilot-qwen-hack
 const videoArtifactUrl = `${repoUrl}/blob/main/docs/demo/vexa-local-demo.mp4`;
 const finalDemoArtifactUrl = `${repoUrl}/blob/main/docs/demo/vexa-devpost-demo.mp4`;
 const alibabaDeployBundleUrl = `${repoUrl}/tree/main/deploy/alibaba`;
+const alibabaOnePasteUrl = `${repoUrl}/blob/main/deploy/alibaba/console-one-paste.sh`;
+const releaseOnePasteUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/console-one-paste.sh`;
 const releaseDeckUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/vexa-autopilot-qwen-hackathon.pptx`;
 const releaseVideoUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/vexa-local-demo.mp4`;
 const releaseFinalDemoUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/vexa-devpost-demo.mp4`;
@@ -93,6 +95,7 @@ updated: 2026-06-30
 - GitHub release package: ${releaseUrl}
 - Qwen / Alibaba Cloud code proof: ${codeProofUrl}
 - Alibaba ECS deployment bundle: ${alibabaDeployBundleUrl}
+- Alibaba ECS one-paste bootstrap: ${alibabaOnePasteUrl}
 - Slides: ${deckUrl}
 - Devpost demo video artifact to upload: ${finalDemoArtifactUrl}
 - Raw UI recording artifact: ${videoArtifactUrl}
@@ -106,6 +109,7 @@ updated: 2026-06-30
 - Release final gate report download: ${releaseFinalGateReportUrl}
 - Release requirements matrix download: ${releaseRequirementsMatrixUrl}
 - Release cloud proof recording guide download: ${releaseCloudProofRecordingUrl}
+- Release one-paste bootstrap download: ${releaseOnePasteUrl}
 - Release submission bundle download: ${releaseSubmissionBundleUrl}
 - Live demo URL: <Alibaba Cloud URL pending>
 - Public demo video URL: <YouTube, Vimeo, or Youku URL pending>

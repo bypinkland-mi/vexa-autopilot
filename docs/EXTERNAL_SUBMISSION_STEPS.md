@@ -12,8 +12,16 @@ Use this as the last-mile checklist when logged into Alibaba Cloud, a public vid
 
 1. Create an Ubuntu ECS instance.
 2. Open inbound TCP `8080` only for the judging/demo window.
-3. Paste `deploy/alibaba/cloud-init.user-data.example` as cloud-init user data, or SSH in and run `deploy/alibaba/bootstrap-ecs.sh`.
-4. Set Qwen Cloud runtime variables on the server:
+3. Run the one-paste bootstrap through Alibaba Cloud Workbench, Cloud Assistant, or SSH:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bypinkland-mi/vexa-autopilot/main/deploy/alibaba/console-one-paste.sh | \
+  sudo -E VEXA_PUBLIC_ORIGIN=http://<ecs-public-ip>:8080 bash
+```
+
+Alternative: paste `deploy/alibaba/cloud-init.user-data.example` as cloud-init user data, or SSH in and run `deploy/alibaba/bootstrap-ecs.sh`.
+
+4. For Qwen Cloud mode, set runtime variables on the server:
 
 ```bash
 DASHSCOPE_API_KEY=<set in Alibaba Cloud only>

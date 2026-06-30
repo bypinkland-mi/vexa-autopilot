@@ -8,6 +8,7 @@ const requiredFiles = [
   "deploy/alibaba/README.md",
   "deploy/alibaba/docker-compose.yml",
   "deploy/alibaba/env.alibaba.example",
+  "deploy/alibaba/console-one-paste.sh",
   "deploy/alibaba/bootstrap-ecs.sh",
   "deploy/alibaba/cloud-init.user-data.example",
   "deploy/alibaba/install-ecs-docker.sh",

@@ -10,7 +10,29 @@ This folder is a public-safe deployment bundle for proving that Vexa's backend c
 
 ## Fast ECS Path
 
-### Option A: Console User Data
+### Option A: Console / Workbench One-Paste
+
+Create an Ubuntu ECS instance, open inbound TCP `8080`, then run this in Alibaba Cloud Workbench, Cloud Assistant, or an SSH shell:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bypinkland-mi/vexa-autopilot/main/deploy/alibaba/console-one-paste.sh | sudo -E bash
+```
+
+If public IP detection fails, pass the public URL explicitly:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bypinkland-mi/vexa-autopilot/main/deploy/alibaba/console-one-paste.sh | \
+  sudo -E VEXA_PUBLIC_ORIGIN=http://<ecs-public-ip>:8080 bash
+```
+
+For Qwen Cloud mode, set `DASHSCOPE_API_KEY` on the server only and run:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/bypinkland-mi/vexa-autopilot/main/deploy/alibaba/console-one-paste.sh | \
+  sudo -E DASHSCOPE_API_KEY=<set-on-server-only> VEXA_FORCE_MOCK=0 VEXA_PUBLIC_ORIGIN=http://<ecs-public-ip>:8080 bash
+```
+
+### Option B: Console User Data
 
 When creating the ECS instance, paste `deploy/alibaba/cloud-init.user-data.example` into the instance user-data / cloud-init field. This installs Docker, clones the public repository, starts Vexa on port `8080`, and leaves logs in:
 
@@ -20,7 +42,7 @@ When creating the ECS instance, paste `deploy/alibaba/cloud-init.user-data.examp
 
 Use this mode for a fastest mock-mode proof. For true Qwen Cloud mode, add `DASHSCOPE_API_KEY` through a secure server-side mechanism and set `VEXA_FORCE_MOCK=0` before rerunning `deploy/alibaba/bootstrap-ecs.sh`.
 
-### Option B: SSH Bootstrap
+### Option C: SSH Bootstrap
 
 After creating an Ubuntu ECS instance and opening inbound TCP `8080`, SSH into it and run:
 
@@ -42,7 +64,7 @@ sudo -E \
   bash deploy/alibaba/bootstrap-ecs.sh
 ```
 
-### Option C: Manual Compose
+### Option D: Manual Compose
 
 1. Create an Alibaba Cloud ECS instance with Ubuntu 22.04 or 24.04.
 2. Open inbound TCP `8080` in the ECS security group for the demo window.
