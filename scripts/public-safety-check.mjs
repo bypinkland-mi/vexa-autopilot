@@ -16,6 +16,7 @@ const requiredFiles = [
   "docs/DEVPOST_SUBMISSION.md",
   "docs/SUBMISSION_AUDIT.md",
   "docs/FINAL_SUBMISSION_RUNBOOK.md",
+  "docs/DEVPOST_FINAL_PACKET.template.md",
   "docs/ALIBABA_CLOUD_DEPLOYMENT.md",
   "docs/DEMO_SCRIPT.md",
   "docs/PRESENTATION_OUTLINE.md",
@@ -30,6 +31,7 @@ const requiredFiles = [
   "scripts/record-demo.mjs",
   "scripts/render-devpost-demo.py",
   "scripts/collect-submission-evidence.mjs",
+  "scripts/finalize-devpost-packet.mjs",
   "scripts/check-deploy-bundle.mjs",
   ".env.example"
 ];

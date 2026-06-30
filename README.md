@@ -50,6 +50,7 @@ The demo now includes two paths:
 - Devpost copy: [docs/DEVPOST_SUBMISSION.md](docs/DEVPOST_SUBMISSION.md)
 - Submission audit: [docs/SUBMISSION_AUDIT.md](docs/SUBMISSION_AUDIT.md)
 - Final submission runbook: [docs/FINAL_SUBMISSION_RUNBOOK.md](docs/FINAL_SUBMISSION_RUNBOOK.md)
+- Devpost final packet template: [docs/DEVPOST_FINAL_PACKET.template.md](docs/DEVPOST_FINAL_PACKET.template.md)
 - Demo script: [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md)
 - Devpost-ready demo video: [docs/demo/vexa-devpost-demo.mp4](docs/demo/vexa-devpost-demo.mp4)
 - Local demo recording: [docs/demo/vexa-local-demo.webm](docs/demo/vexa-local-demo.webm)

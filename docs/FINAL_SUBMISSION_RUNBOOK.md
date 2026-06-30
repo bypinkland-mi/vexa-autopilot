@@ -124,4 +124,15 @@ Use:
 
 ## 7. Final Gate
 
+Generate the final copy/paste packet after the Alibaba Cloud URL, public video URL, and proof recording URL exist:
+
+```bash
+npm run finalize:devpost -- \
+  --cloud-url <Alibaba Cloud URL> \
+  --video-url <YouTube, Vimeo, or Youku URL> \
+  --proof-url <Alibaba Cloud proof recording URL>
+```
+
+If the cloud URL has already been verified elsewhere, add `--skip-cloud-verify`.
+
 Before clicking submit, verify every row in `docs/SUBMISSION_AUDIT.md` has external evidence, not only local evidence.
