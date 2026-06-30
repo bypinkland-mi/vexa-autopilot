@@ -15,6 +15,7 @@
     "qa:browser": "node scripts/qa-playwright.mjs",
     "check:public": "node scripts/public-safety-check.mjs",
     "check:submission": "npm test && npm run build && npm run check:public",
+    "verify:cloud": "node scripts/verify-cloud-url.mjs",
     "demo:mock": "VEXA_FORCE_MOCK=1 node server/index.mjs"
   },
   "dependencies": {

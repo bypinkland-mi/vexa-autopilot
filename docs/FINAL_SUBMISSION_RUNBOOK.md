@@ -83,12 +83,14 @@ curl -s <cloud-url>/api/health
 curl -s <cloud-url>/api/browser-agent/run \
   -H 'Content-Type: application/json' \
   -d '{"objective":"Open the demo storefront, find the refund policy, compare it with checkout copy, then draft a customer reply."}'
+npm run verify:cloud -- <cloud-url>
 ```
 
 Expected:
 
 - `/api/health` returns service metadata and the selected provider.
 - Browser-agent run returns a trace, evidence, and a pause-before-approval result.
+- `npm run verify:cloud -- <cloud-url>` returns `ok:true`.
 
 ## 5. Record Proof
 

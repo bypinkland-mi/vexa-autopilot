@@ -16,6 +16,7 @@ const requiredFiles = [
   "docs/PRESENTATION_OUTLINE.md",
   "docs/READINESS_CHECKLIST.md",
   "docs/PROJECT_BOUNDARY.md",
+  "scripts/verify-cloud-url.mjs",
   ".env.example"
 ];
 

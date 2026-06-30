@@ -28,6 +28,7 @@ This audit maps the official Qwen Cloud Hackathon requirements to concrete Vexa 
 | Text description | `docs/DEVPOST_SUBMISSION.md` includes one-liner, inspiration, what it does, build notes, safety, and next steps | Ready |
 | Track identified | `docs/DEVPOST_SUBMISSION.md` identifies `Track 4: Autopilot Agent` | Ready |
 | Functionality matches video/text | `npm run check:submission`, local browser QA, production-style smoke, and Docker smoke are the local proof baseline | Ready locally; live cloud proof pending |
+| Live cloud URL works | `npm run verify:cloud -- <cloud-url>` checks `/api/health` and browser-agent trace/evidence/status | Pending Alibaba Cloud URL |
 
 ## Final Submission Evidence To Collect
 
