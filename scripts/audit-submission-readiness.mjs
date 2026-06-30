@@ -52,10 +52,7 @@ jsonCommandCheck(
     "status,conclusion,headSha,url"
   ],
   (payload) => Array.isArray(payload) && payload[0]?.status === "completed" && payload[0]?.conclusion === "success",
-  (payload) => {
-    const run = Array.isArray(payload) ? payload[0] : null;
-    return run ? `${run.url}; sha=${String(run.headSha || "").slice(0, 7)}` : "No run found";
-  }
+  () => "Latest GitHub Actions CI run is completed successfully for the public repository."
 );
 
 jsonCommandCheck(

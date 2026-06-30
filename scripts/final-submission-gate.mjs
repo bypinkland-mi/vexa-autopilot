@@ -165,10 +165,14 @@ function runStep(label, command, commandArgs) {
     encoding: "utf8",
     stdio: ["ignore", "pipe", "pipe"]
   });
+  const commandLine = [command, ...commandArgs].join(" ");
   return {
     label,
     status: result.status === 0 ? "ready" : "blocked",
-    evidence: compactOutput(result.status === 0 ? result.stdout : result.stderr || result.stdout)
+    evidence:
+      result.status === 0
+        ? `${commandLine} completed successfully.`
+        : compactOutput(result.stderr || result.stdout)
   };
 }
 

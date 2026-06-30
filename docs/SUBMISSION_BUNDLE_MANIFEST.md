@@ -19,7 +19,7 @@ npm run build:submission-bundle
 - Archive: `dist/submission/vexa-qwen-hackathon-submission.tar.gz`
 - SHA256: `dist/submission/vexa-qwen-hackathon-submission.tar.gz.sha256`
 - Release download: `https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/vexa-qwen-hackathon-submission.tar.gz`
-- SHA256: `6802706c3144c76758d2b195300ca76174b0fdf21d27c6386b48444c931e2a36`
+- SHA256: `64944f8aeb1faeffa2b37d049b50f6c99fa256334d9af92f4dcd8dc2fb05127a`
 - Size: `1.7 MB`
 
 ## Included Files
