@@ -17,6 +17,7 @@
     "check:submission": "npm test && npm run build && npm run check:public",
     "verify:cloud": "node scripts/verify-cloud-url.mjs",
     "record:demo": "npm run build && node scripts/record-demo.mjs",
+    "collect:submission": "node scripts/collect-submission-evidence.mjs",
     "demo:mock": "VEXA_FORCE_MOCK=1 node server/index.mjs"
   },
   "dependencies": {
