@@ -41,6 +41,7 @@ Vexa Autopilot is public-repo-ready and container-smoke-tested. It is not yet fu
 - Alibaba ECS cloud-init example added: `deploy/alibaba/cloud-init.user-data.example`.
 - External submission steps added: `docs/EXTERNAL_SUBMISSION_STEPS.md`.
 - Submission link verifier added: `npm run verify:submission-links`.
+- One-command final submission gate added: `npm run final:submission`.
 - GitHub release package published: `https://github.com/bypinkland-mi/vexa-autopilot/releases/tag/v0.1-qwen-hackathon`.
 
 ## Verified Locally

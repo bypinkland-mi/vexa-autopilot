@@ -24,6 +24,7 @@ updated: 2026-06-30
 - Release final packet template download: https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/DEVPOST_FINAL_PACKET.template.md
 - Release readiness report download: https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/SUBMISSION_READINESS_REPORT.md
 - Release links report download: https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/SUBMISSION_LINKS_REPORT.md
+- Release final gate report download: https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/FINAL_SUBMISSION_GATE_REPORT.md
 - Live demo URL: <Alibaba Cloud URL pending>
 - Public demo video URL: <YouTube, Vimeo, or Youku URL pending>
 
@@ -40,13 +41,14 @@ Vexa Autopilot is a Qwen-powered browser-agent sandbox that checks a storefront 
 - Devpost final packet template: `docs/DEVPOST_FINAL_PACKET.template.md` (3 KB)
 - Submission readiness report: `docs/SUBMISSION_READINESS_REPORT.md` (3 KB)
 - Submission links report: `docs/SUBMISSION_LINKS_REPORT.md` (3 KB)
+- Final submission gate report: `docs/FINAL_SUBMISSION_GATE_REPORT.md` (2 KB)
 - External submission steps: `docs/EXTERNAL_SUBMISSION_STEPS.md` (3 KB)
 - Alibaba ECS deployment bundle: `deploy/alibaba/` (7 files)
 
 ## Verification Snapshot
 
 - GitHub repo metadata: `{"defaultBranchRef":{"name":"main"},"licenseInfo":{"key":"mit","name":"MIT License","nickname":""},"url":"https://github.com/bypinkland-mi/vexa-autopilot","visibility":"PUBLIC"}`
-- Latest GitHub CI at generation time: `[{"conclusion":"success","headSha":"14161d4330e233cfb25f17591843a6e2fb1627b9","status":"completed","url":"https://github.com/bypinkland-mi/vexa-autopilot/actions/runs/28459009184"}]`
+- Latest GitHub CI at generation time: `[{"conclusion":"success","headSha":"4e70163b039722acf6e3dd3c1b8c85b9e4f2acca","status":"completed","url":"https://github.com/bypinkland-mi/vexa-autopilot/actions/runs/28459213852"}]`
 - Alibaba CLI version: `3.4.2`
 - Alibaba profile: `ERROR: load configure failed: stat /Users/sammili/.aliyun/config.json: no such file or directory`
 

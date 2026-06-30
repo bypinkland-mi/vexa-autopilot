@@ -51,6 +51,7 @@ The demo now includes two paths:
 - Submission audit: [docs/SUBMISSION_AUDIT.md](docs/SUBMISSION_AUDIT.md)
 - Readiness report: [docs/SUBMISSION_READINESS_REPORT.md](docs/SUBMISSION_READINESS_REPORT.md)
 - Submission links report: [docs/SUBMISSION_LINKS_REPORT.md](docs/SUBMISSION_LINKS_REPORT.md)
+- Final submission gate report: [docs/FINAL_SUBMISSION_GATE_REPORT.md](docs/FINAL_SUBMISSION_GATE_REPORT.md)
 - Final submission runbook: [docs/FINAL_SUBMISSION_RUNBOOK.md](docs/FINAL_SUBMISSION_RUNBOOK.md)
 - External submission steps: [docs/EXTERNAL_SUBMISSION_STEPS.md](docs/EXTERNAL_SUBMISSION_STEPS.md)
 - Devpost final packet template: [docs/DEVPOST_FINAL_PACKET.template.md](docs/DEVPOST_FINAL_PACKET.template.md)
@@ -137,3 +138,5 @@ npm run qa:browser
 `npm run check:submission` runs tests, production build, and the public-safety file check.
 
 After public URLs exist, `npm run verify:submission-links -- --cloud-url <Alibaba Cloud URL> --video-url <YouTube/Vimeo/Youku URL> --proof-url <proof URL>` checks the Devpost-facing links.
+
+Use `npm run final:submission -- --cloud-url <Alibaba Cloud URL> --video-url <YouTube/Vimeo/Youku URL> --proof-url <proof URL>` as the final one-command gate before submitting on Devpost.

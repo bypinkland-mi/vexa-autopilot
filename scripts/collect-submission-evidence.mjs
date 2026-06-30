@@ -18,6 +18,7 @@ const releasePackageUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/SUBM
 const releaseFinalPacketTemplateUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/DEVPOST_FINAL_PACKET.template.md`;
 const releaseReadinessReportUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/SUBMISSION_READINESS_REPORT.md`;
 const releaseLinksReportUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/SUBMISSION_LINKS_REPORT.md`;
+const releaseFinalGateReportUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/FINAL_SUBMISSION_GATE_REPORT.md`;
 
 const checks = {
   latestCi: exec("gh", [
@@ -49,6 +50,7 @@ const artifacts = [
   ["Devpost final packet template", "docs/DEVPOST_FINAL_PACKET.template.md"],
   ["Submission readiness report", "docs/SUBMISSION_READINESS_REPORT.md"],
   ["Submission links report", "docs/SUBMISSION_LINKS_REPORT.md"],
+  ["Final submission gate report", "docs/FINAL_SUBMISSION_GATE_REPORT.md"],
   ["External submission steps", "docs/EXTERNAL_SUBMISSION_STEPS.md"],
   ["Alibaba ECS deployment bundle", "deploy/alibaba"]
 ];
@@ -95,6 +97,7 @@ updated: 2026-06-30
 - Release final packet template download: ${releaseFinalPacketTemplateUrl}
 - Release readiness report download: ${releaseReadinessReportUrl}
 - Release links report download: ${releaseLinksReportUrl}
+- Release final gate report download: ${releaseFinalGateReportUrl}
 - Live demo URL: <Alibaba Cloud URL pending>
 - Public demo video URL: <YouTube, Vimeo, or Youku URL pending>
 

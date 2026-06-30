@@ -132,9 +132,19 @@ Audit the current submission state:
 ```bash
 npm run audit:submission
 npm run verify:submission-links
+npm run final:submission -- --allow-pending
 ```
 
 After the external URLs exist, run:
+
+```bash
+npm run final:submission -- \
+  --cloud-url <Alibaba Cloud URL> \
+  --video-url <YouTube, Vimeo, or Youku URL> \
+  --proof-url <Alibaba Cloud proof recording URL>
+```
+
+The final gate runs the local submission check, strict readiness audit, strict link verification, and final Devpost packet generation. The separate commands below are useful only if you want to inspect one layer at a time:
 
 ```bash
 npm run audit:submission -- \

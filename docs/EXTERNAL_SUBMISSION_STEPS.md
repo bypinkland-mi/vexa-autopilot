@@ -69,6 +69,15 @@ Set visibility to public or unlisted if Devpost accepts unlisted. Confirm the UR
 After the three public URLs exist, run:
 
 ```bash
+npm run final:submission -- \
+  --cloud-url <Alibaba Cloud URL> \
+  --video-url <YouTube, Vimeo, or Youku URL> \
+  --proof-url <Alibaba Cloud proof recording URL>
+```
+
+If you need to inspect the individual layers, run:
+
+```bash
 npm run audit:submission -- \
   --cloud-url <Alibaba Cloud URL> \
   --video-url <YouTube, Vimeo, or Youku URL> \

@@ -19,6 +19,7 @@ const requiredFiles = [
   "docs/SUBMISSION_AUDIT.md",
   "docs/SUBMISSION_READINESS_REPORT.md",
   "docs/SUBMISSION_LINKS_REPORT.md",
+  "docs/FINAL_SUBMISSION_GATE_REPORT.md",
   "docs/FINAL_SUBMISSION_RUNBOOK.md",
   "docs/EXTERNAL_SUBMISSION_STEPS.md",
   "docs/DEVPOST_FINAL_PACKET.template.md",
@@ -38,6 +39,7 @@ const requiredFiles = [
   "scripts/collect-submission-evidence.mjs",
   "scripts/audit-submission-readiness.mjs",
   "scripts/verify-submission-links.mjs",
+  "scripts/final-submission-gate.mjs",
   "scripts/finalize-devpost-packet.mjs",
   "scripts/check-deploy-bundle.mjs",
   ".env.example"
