@@ -46,7 +46,7 @@ Vexa Autopilot is a Qwen-powered browser-agent sandbox that checks a storefront 
 ## Verification Snapshot
 
 - GitHub repo metadata: `{"defaultBranchRef":{"name":"main"},"licenseInfo":{"key":"mit","name":"MIT License","nickname":""},"url":"https://github.com/bypinkland-mi/vexa-autopilot","visibility":"PUBLIC"}`
-- Latest GitHub CI at generation time: `[{"conclusion":"success","headSha":"79070b549d8d2a2ce03ea9784f833d651d338fd9","status":"completed","url":"https://github.com/bypinkland-mi/vexa-autopilot/actions/runs/28458618831"}]`
+- Latest GitHub CI at generation time: `[{"conclusion":"success","headSha":"14161d4330e233cfb25f17591843a6e2fb1627b9","status":"completed","url":"https://github.com/bypinkland-mi/vexa-autopilot/actions/runs/28459009184"}]`
 - Alibaba CLI version: `3.4.2`
 - Alibaba profile: `ERROR: load configure failed: stat /Users/sammili/.aliyun/config.json: no such file or directory`
 
