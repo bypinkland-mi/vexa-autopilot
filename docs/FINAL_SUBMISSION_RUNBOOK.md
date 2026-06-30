@@ -120,6 +120,7 @@ Use:
 - GitHub release package: `https://github.com/bypinkland-mi/vexa-autopilot/releases/tag/v0.1-qwen-hackathon`
 - Devpost video artifact: `docs/demo/vexa-devpost-demo.mp4`
 - Text copy: `docs/DEVPOST_SUBMISSION.md`
+- Requirements matrix: `docs/DEVPOST_REQUIREMENTS_MATRIX.md`
 - Architecture: `docs/ARCHITECTURE.md`
 - Slides: `docs/presentation/vexa-autopilot-qwen-hackathon.pptx`
 - Final audit: `docs/SUBMISSION_AUDIT.md`

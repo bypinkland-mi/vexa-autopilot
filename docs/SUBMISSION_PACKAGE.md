@@ -25,6 +25,7 @@ updated: 2026-06-30
 - Release readiness report download: https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/SUBMISSION_READINESS_REPORT.md
 - Release links report download: https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/SUBMISSION_LINKS_REPORT.md
 - Release final gate report download: https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/FINAL_SUBMISSION_GATE_REPORT.md
+- Release requirements matrix download: https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/DEVPOST_REQUIREMENTS_MATRIX.md
 - Live demo URL: <Alibaba Cloud URL pending>
 - Public demo video URL: <YouTube, Vimeo, or Youku URL pending>
 
@@ -39,16 +40,17 @@ Vexa Autopilot is a Qwen-powered browser-agent sandbox that checks a storefront 
 - Demo video MP4: `docs/demo/vexa-local-demo.mp4` (441 KB)
 - Demo video WebM: `docs/demo/vexa-local-demo.webm` (645 KB)
 - Devpost final packet template: `docs/DEVPOST_FINAL_PACKET.template.md` (3 KB)
+- Devpost requirements matrix: `docs/DEVPOST_REQUIREMENTS_MATRIX.md` (3 KB)
 - Submission readiness report: `docs/SUBMISSION_READINESS_REPORT.md` (3 KB)
 - Submission links report: `docs/SUBMISSION_LINKS_REPORT.md` (3 KB)
-- Final submission gate report: `docs/FINAL_SUBMISSION_GATE_REPORT.md` (2 KB)
+- Final submission gate report: `docs/FINAL_SUBMISSION_GATE_REPORT.md` (159 B)
 - External submission steps: `docs/EXTERNAL_SUBMISSION_STEPS.md` (3 KB)
 - Alibaba ECS deployment bundle: `deploy/alibaba/` (7 files)
 
 ## Verification Snapshot
 
 - GitHub repo metadata: `{"defaultBranchRef":{"name":"main"},"licenseInfo":{"key":"mit","name":"MIT License","nickname":""},"url":"https://github.com/bypinkland-mi/vexa-autopilot","visibility":"PUBLIC"}`
-- Latest GitHub CI at generation time: `[{"conclusion":"success","headSha":"4e70163b039722acf6e3dd3c1b8c85b9e4f2acca","status":"completed","url":"https://github.com/bypinkland-mi/vexa-autopilot/actions/runs/28459213852"}]`
+- Latest GitHub CI at generation time: `[{"conclusion":"success","headSha":"0008cf8d0844aff7fa39939b4d0fa00492d8e65a","status":"completed","url":"https://github.com/bypinkland-mi/vexa-autopilot/actions/runs/28459720886"}]`
 - Alibaba CLI version: `3.4.2`
 - Alibaba profile: `ERROR: load configure failed: stat /Users/sammili/.aliyun/config.json: no such file or directory`
 

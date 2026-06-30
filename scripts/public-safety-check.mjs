@@ -16,6 +16,7 @@ const requiredFiles = [
   "docs/HACKATHON_DEMO.md",
   "docs/ARCHITECTURE.md",
   "docs/DEVPOST_SUBMISSION.md",
+  "docs/DEVPOST_REQUIREMENTS_MATRIX.md",
   "docs/SUBMISSION_AUDIT.md",
   "docs/SUBMISSION_READINESS_REPORT.md",
   "docs/SUBMISSION_LINKS_REPORT.md",

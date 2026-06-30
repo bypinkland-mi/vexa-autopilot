@@ -33,8 +33,8 @@ npm run audit:submission
 | Alibaba ECS bootstrap script | ready | deploy/alibaba/bootstrap-ecs.sh |
 | Alibaba cloud-init user-data example | ready | deploy/alibaba/cloud-init.user-data.example |
 | Repository is public with MIT license | ready | https://github.com/bypinkland-mi/vexa-autopilot; visibility=PUBLIC; license=mit; default=main |
-| Latest GitHub CI passed | ready | https://github.com/bypinkland-mi/vexa-autopilot/actions/runs/28459213852; sha=4e70163 |
-| Release contains required assets | ready | https://github.com/bypinkland-mi/vexa-autopilot/releases/tag/v0.1-qwen-hackathon; assets=DEVPOST_FINAL_PACKET.template.md, EXTERNAL_SUBMISSION_STEPS.md, SUBMISSION_LINKS_REPORT.md, SUBMISSION_PACKAGE.md, SUBMISSION_READINESS_REPORT.md, bootstrap-ecs.sh, cloud-init.user-data.example, vexa-autopilot-qwen-hackathon.pptx, vexa-devpost-demo.mp4, vexa-local-demo.mp4, vexa-local-demo.webm |
+| Latest GitHub CI passed | ready | https://github.com/bypinkland-mi/vexa-autopilot/actions/runs/28459720886; sha=0008cf8 |
+| Release contains required assets | ready | https://github.com/bypinkland-mi/vexa-autopilot/releases/tag/v0.1-qwen-hackathon; assets=DEVPOST_FINAL_PACKET.template.md, EXTERNAL_SUBMISSION_STEPS.md, FINAL_SUBMISSION_GATE_REPORT.md, SUBMISSION_LINKS_REPORT.md, SUBMISSION_PACKAGE.md, SUBMISSION_READINESS_REPORT.md, bootstrap-ecs.sh, cloud-init.user-data.example, vexa-autopilot-qwen-hackathon.pptx, vexa-devpost-demo.mp4, vexa-local-demo.mp4, vexa-local-demo.webm |
 | Devpost MP4 is under 3 minutes and upload-ready | ready | 82.8s; h264 1280x720; audio=aac; size=1287600 bytes |
 | Alibaba CLI installed | ready | 3.4.2 |
 | Alibaba CLI profile configured | pending | ERROR: load configure failed: stat /Users/sammili/.aliyun/config.json: no such file or directory |

@@ -19,6 +19,7 @@ const releaseFinalPacketTemplateUrl = `${repoUrl}/releases/download/v0.1-qwen-ha
 const releaseReadinessReportUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/SUBMISSION_READINESS_REPORT.md`;
 const releaseLinksReportUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/SUBMISSION_LINKS_REPORT.md`;
 const releaseFinalGateReportUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/FINAL_SUBMISSION_GATE_REPORT.md`;
+const releaseRequirementsMatrixUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/DEVPOST_REQUIREMENTS_MATRIX.md`;
 
 const checks = {
   latestCi: exec("gh", [
@@ -48,6 +49,7 @@ const artifacts = [
   ["Demo video MP4", "docs/demo/vexa-local-demo.mp4"],
   ["Demo video WebM", "docs/demo/vexa-local-demo.webm"],
   ["Devpost final packet template", "docs/DEVPOST_FINAL_PACKET.template.md"],
+  ["Devpost requirements matrix", "docs/DEVPOST_REQUIREMENTS_MATRIX.md"],
   ["Submission readiness report", "docs/SUBMISSION_READINESS_REPORT.md"],
   ["Submission links report", "docs/SUBMISSION_LINKS_REPORT.md"],
   ["Final submission gate report", "docs/FINAL_SUBMISSION_GATE_REPORT.md"],
@@ -98,6 +100,7 @@ updated: 2026-06-30
 - Release readiness report download: ${releaseReadinessReportUrl}
 - Release links report download: ${releaseLinksReportUrl}
 - Release final gate report download: ${releaseFinalGateReportUrl}
+- Release requirements matrix download: ${releaseRequirementsMatrixUrl}
 - Live demo URL: <Alibaba Cloud URL pending>
 - Public demo video URL: <YouTube, Vimeo, or Youku URL pending>
 

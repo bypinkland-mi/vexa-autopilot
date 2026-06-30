@@ -49,6 +49,7 @@ The demo now includes two paths:
 - Architecture: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
 - Devpost copy: [docs/DEVPOST_SUBMISSION.md](docs/DEVPOST_SUBMISSION.md)
 - Submission audit: [docs/SUBMISSION_AUDIT.md](docs/SUBMISSION_AUDIT.md)
+- Devpost requirements matrix: [docs/DEVPOST_REQUIREMENTS_MATRIX.md](docs/DEVPOST_REQUIREMENTS_MATRIX.md)
 - Readiness report: [docs/SUBMISSION_READINESS_REPORT.md](docs/SUBMISSION_READINESS_REPORT.md)
 - Submission links report: [docs/SUBMISSION_LINKS_REPORT.md](docs/SUBMISSION_LINKS_REPORT.md)
 - Final submission gate report: [docs/FINAL_SUBMISSION_GATE_REPORT.md](docs/FINAL_SUBMISSION_GATE_REPORT.md)
