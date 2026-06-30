@@ -20,6 +20,7 @@
     "record:demo": "npm run build && node scripts/record-demo.mjs",
     "render:devpost-demo": "python3 scripts/render-devpost-demo.py",
     "collect:submission": "node scripts/collect-submission-evidence.mjs",
+    "audit:submission": "node scripts/audit-submission-readiness.mjs",
     "finalize:devpost": "node scripts/finalize-devpost-packet.mjs",
     "demo:mock": "VEXA_FORCE_MOCK=1 node server/index.mjs"
   },

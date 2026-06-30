@@ -124,6 +124,21 @@ Use:
 
 ## 7. Final Gate
 
+Audit the current submission state:
+
+```bash
+npm run audit:submission
+```
+
+After the external URLs exist, run:
+
+```bash
+npm run audit:submission -- \
+  --cloud-url <Alibaba Cloud URL> \
+  --video-url <YouTube, Vimeo, or Youku URL> \
+  --proof-url <Alibaba Cloud proof recording URL>
+```
+
 Generate the final copy/paste packet after the Alibaba Cloud URL, public video URL, and proof recording URL exist:
 
 ```bash
