@@ -10,6 +10,40 @@ This folder is a public-safe deployment bundle for proving that Vexa's backend c
 
 ## Fast ECS Path
 
+### Option A: Console User Data
+
+When creating the ECS instance, paste `deploy/alibaba/cloud-init.user-data.example` into the instance user-data / cloud-init field. This installs Docker, clones the public repository, starts Vexa on port `8080`, and leaves logs in:
+
+```bash
+/var/log/cloud-init-output.log
+```
+
+Use this mode for a fastest mock-mode proof. For true Qwen Cloud mode, add `DASHSCOPE_API_KEY` through a secure server-side mechanism and set `VEXA_FORCE_MOCK=0` before rerunning `deploy/alibaba/bootstrap-ecs.sh`.
+
+### Option B: SSH Bootstrap
+
+After creating an Ubuntu ECS instance and opening inbound TCP `8080`, SSH into it and run:
+
+```bash
+sudo apt-get update
+sudo apt-get install -y git
+sudo git clone https://github.com/bypinkland-mi/vexa-autopilot.git /opt/vexa-autopilot
+cd /opt/vexa-autopilot
+sudo -E VEXA_PUBLIC_ORIGIN=http://<ecs-public-ip>:8080 bash deploy/alibaba/bootstrap-ecs.sh
+```
+
+Optional Qwen Cloud mode:
+
+```bash
+sudo -E \
+  DASHSCOPE_API_KEY=<set-on-server-only> \
+  VEXA_FORCE_MOCK=0 \
+  VEXA_PUBLIC_ORIGIN=http://<ecs-public-ip>:8080 \
+  bash deploy/alibaba/bootstrap-ecs.sh
+```
+
+### Option C: Manual Compose
+
 1. Create an Alibaba Cloud ECS instance with Ubuntu 22.04 or 24.04.
 2. Open inbound TCP `8080` in the ECS security group for the demo window.
 3. SSH into the instance.

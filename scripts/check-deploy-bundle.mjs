@@ -6,6 +6,8 @@ const required = [
   "deploy/alibaba/README.md",
   "deploy/alibaba/docker-compose.yml",
   "deploy/alibaba/env.alibaba.example",
+  "deploy/alibaba/bootstrap-ecs.sh",
+  "deploy/alibaba/cloud-init.user-data.example",
   "deploy/alibaba/install-ecs-docker.sh",
   "deploy/alibaba/vexa-autopilot.service"
 ];
@@ -34,6 +36,28 @@ if (!envText.includes("VEXA_SANDBOX_ORIGIN=http://<ecs-public-ip>:8080")) {
 const composeText = await readFile(path.join(root, "deploy/alibaba/docker-compose.yml"), "utf8");
 if (!composeText.includes("8080:8080")) failures.push("docker-compose.yml must expose 8080:8080");
 if (!composeText.includes("env.alibaba")) failures.push("docker-compose.yml must read deploy/alibaba/env.alibaba");
+
+const bootstrapText = await readFile(path.join(root, "deploy/alibaba/bootstrap-ecs.sh"), "utf8");
+if (!bootstrapText.includes("VEXA_PUBLIC_ORIGIN")) {
+  failures.push("bootstrap-ecs.sh must support VEXA_PUBLIC_ORIGIN");
+}
+if (!bootstrapText.includes("docker compose -f")) {
+  failures.push("bootstrap-ecs.sh must start the Docker Compose bundle");
+}
+if (/DASHSCOPE_API_KEY=(?!\$\{)[^<\s].*[A-Za-z0-9]/.test(bootstrapText)) {
+  failures.push("bootstrap-ecs.sh must not contain a real DASHSCOPE_API_KEY");
+}
+
+const cloudInitText = await readFile(
+  path.join(root, "deploy/alibaba/cloud-init.user-data.example"),
+  "utf8"
+);
+if (!cloudInitText.startsWith("#cloud-config")) {
+  failures.push("cloud-init.user-data.example must start with #cloud-config");
+}
+if (!cloudInitText.includes("bootstrap-ecs.sh")) {
+  failures.push("cloud-init.user-data.example must call bootstrap-ecs.sh");
+}
 
 if (failures.length > 0) {
   console.error("Deployment bundle check failed:");

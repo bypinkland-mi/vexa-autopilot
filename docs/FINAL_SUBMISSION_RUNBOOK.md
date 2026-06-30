@@ -58,9 +58,9 @@ For a plain ECS instance, use the ready bundle in `deploy/alibaba/`. It includes
 
 Recommended simple path:
 
-1. Build the Docker image from this repo.
-2. Deploy it to Alibaba Cloud as a container app or ECS Docker service.
-3. Set these runtime environment variables in the cloud console:
+1. Create an Ubuntu ECS instance and open inbound TCP `8080`.
+2. Paste `deploy/alibaba/cloud-init.user-data.example` as user-data, or SSH in and run `deploy/alibaba/bootstrap-ecs.sh`.
+3. For Qwen Cloud mode, set these runtime environment variables on the server:
 
 ```bash
 DASHSCOPE_API_KEY=<set in Alibaba Cloud secret/env UI>

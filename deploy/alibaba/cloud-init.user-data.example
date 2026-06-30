@@ -1,0 +1,24 @@
+#cloud-config
+package_update: true
+packages:
+  - ca-certificates
+  - curl
+  - git
+
+write_files:
+  - path: /root/bootstrap-vexa.sh
+    permissions: "0755"
+    content: |
+      #!/usr/bin/env bash
+      set -euo pipefail
+      git clone --depth=1 https://github.com/bypinkland-mi/vexa-autopilot.git /opt/vexa-autopilot
+      cd /opt/vexa-autopilot
+      # For true Qwen Cloud mode, set DASHSCOPE_API_KEY through a secure server-side mechanism
+      # before running this script, then set VEXA_FORCE_MOCK=0.
+      export VEXA_FORCE_MOCK=1
+      sudo -E bash deploy/alibaba/bootstrap-ecs.sh
+
+runcmd:
+  - [bash, /root/bootstrap-vexa.sh]
+
+final_message: "Vexa bootstrap finished. Check /var/log/cloud-init-output.log, then open http://<ecs-public-ip>:8080."

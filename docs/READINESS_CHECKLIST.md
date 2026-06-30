@@ -37,6 +37,8 @@ Vexa Autopilot is public-repo-ready and container-smoke-tested. It is not yet fu
 - Under-3-minute Devpost demo video generated: `docs/demo/vexa-devpost-demo.mp4`.
 - Reproducible video renderer added: `npm run render:devpost-demo`.
 - Alibaba ECS deployment bundle added: `deploy/alibaba/`.
+- Alibaba ECS bootstrap path added: `deploy/alibaba/bootstrap-ecs.sh`.
+- Alibaba ECS cloud-init example added: `deploy/alibaba/cloud-init.user-data.example`.
 - GitHub release package published: `https://github.com/bypinkland-mi/vexa-autopilot/releases/tag/v0.1-qwen-hackathon`.
 
 ## Verified Locally
@@ -61,7 +63,7 @@ Observed proof:
 ## Still Required Before Devpost Submission
 
 1. Deploy the Docker image to Alibaba Cloud.
-2. Use `deploy/alibaba/README.md` for the ECS Docker Compose path, or deploy the same Dockerfile through another Alibaba container service.
+2. Use `deploy/alibaba/README.md` for the ECS cloud-init, bootstrap, or Docker Compose path; or deploy the same Dockerfile through another Alibaba container service.
 3. Set `DASHSCOPE_API_KEY`, `QWEN_MODEL`, and `VEXA_FORCE_MOCK=0` in Alibaba Cloud for true Qwen Cloud mode.
 4. Run `npm run verify:cloud -- <cloud-url>` against the Alibaba Cloud URL.
 5. Record Alibaba Cloud proof clip:
