@@ -160,13 +160,12 @@ async function httpCheck(label, url) {
         "User-Agent": "vexa-submission-link-check/0.1"
       }
     });
-    const contentLength = response.headers.get("content-length") || "unknown";
     const contentType = response.headers.get("content-type") || "unknown";
     return {
       label,
       status: response.status >= 200 && response.status < 400 ? "ready" : "blocked",
       url,
-      evidence: `HTTP ${response.status}; content-type=${contentType}; content-length=${contentLength}`
+      evidence: `HTTP ${response.status}; content-type=${contentType}`
     };
   } catch (error) {
     return {

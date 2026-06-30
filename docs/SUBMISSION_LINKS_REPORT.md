@@ -22,15 +22,15 @@ npm run verify:submission-links
 
 | Check | Status | URL | Evidence |
 | --- | --- | --- | --- |
-| Repository | ready | https://github.com/bypinkland-mi/vexa-autopilot | HTTP 200; content-type=text/html; charset=utf-8; content-length=unknown |
-| Qwen code proof | ready | https://github.com/bypinkland-mi/vexa-autopilot/blob/main/server/qwen-cloud.mjs | HTTP 200; content-type=text/html; charset=utf-8; content-length=unknown |
-| Release package | ready | https://github.com/bypinkland-mi/vexa-autopilot/releases/tag/v0.1-qwen-hackathon | HTTP 200; content-type=text/html; charset=utf-8; content-length=unknown |
-| Release deck download | ready | https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/vexa-autopilot-qwen-hackathon.pptx | HTTP 200; content-type=application/octet-stream; content-length=593192 |
-| Release Devpost MP4 download | ready | https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/vexa-devpost-demo.mp4 | HTTP 200; content-type=application/octet-stream; content-length=1287600 |
-| Release submission package download | ready | https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/SUBMISSION_PACKAGE.md | HTTP 200; content-type=application/octet-stream; content-length=3894 |
-| Release readiness report download | ready | https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/SUBMISSION_READINESS_REPORT.md | HTTP 200; content-type=application/octet-stream; content-length=2686 |
-| Release links report download | ready | https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/SUBMISSION_LINKS_REPORT.md | HTTP 200; content-type=application/octet-stream; content-length=2942 |
-| Release external submission steps download | ready | https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/EXTERNAL_SUBMISSION_STEPS.md | HTTP 200; content-type=application/octet-stream; content-length=3207 |
+| Repository | ready | https://github.com/bypinkland-mi/vexa-autopilot | HTTP 200; content-type=text/html; charset=utf-8 |
+| Qwen code proof | ready | https://github.com/bypinkland-mi/vexa-autopilot/blob/main/server/qwen-cloud.mjs | HTTP 200; content-type=text/html; charset=utf-8 |
+| Release package | ready | https://github.com/bypinkland-mi/vexa-autopilot/releases/tag/v0.1-qwen-hackathon | HTTP 200; content-type=text/html; charset=utf-8 |
+| Release deck download | ready | https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/vexa-autopilot-qwen-hackathon.pptx | HTTP 200; content-type=application/octet-stream |
+| Release Devpost MP4 download | ready | https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/vexa-devpost-demo.mp4 | HTTP 200; content-type=application/octet-stream |
+| Release submission package download | ready | https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/SUBMISSION_PACKAGE.md | HTTP 200; content-type=application/octet-stream |
+| Release readiness report download | ready | https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/SUBMISSION_READINESS_REPORT.md | HTTP 200; content-type=application/octet-stream |
+| Release links report download | ready | https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/SUBMISSION_LINKS_REPORT.md | HTTP 200; content-type=application/octet-stream |
+| Release external submission steps download | ready | https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/EXTERNAL_SUBMISSION_STEPS.md | HTTP 200; content-type=application/octet-stream |
 | Alibaba Cloud live URL workflow | pending |  | Run with --cloud-url <Alibaba Cloud URL> after deployment. |
 | Public demo video URL | pending |  | Run with --video-url <YouTube, Vimeo, or Youku URL> after upload. |
 | Alibaba Cloud proof recording URL | pending |  | Run with --proof-url <recording URL> after proof capture. |
