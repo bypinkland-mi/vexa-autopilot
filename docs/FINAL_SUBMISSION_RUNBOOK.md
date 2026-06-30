@@ -115,7 +115,7 @@ Use:
 - Track: `Track 4: Autopilot Agent`
 - Text copy: `docs/DEVPOST_SUBMISSION.md`
 - Architecture: `docs/ARCHITECTURE.md`
-- Slides: `docs/PRESENTATION_OUTLINE.md`
+- Slides: `docs/presentation/vexa-autopilot-qwen-hackathon.pptx`
 - Final audit: `docs/SUBMISSION_AUDIT.md`
 
 ## 7. Final Gate

@@ -52,6 +52,7 @@ The demo now includes two paths:
 - Final submission runbook: [docs/FINAL_SUBMISSION_RUNBOOK.md](docs/FINAL_SUBMISSION_RUNBOOK.md)
 - Demo script: [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md)
 - Presentation outline: [docs/PRESENTATION_OUTLINE.md](docs/PRESENTATION_OUTLINE.md)
+- Presentation deck: [docs/presentation/vexa-autopilot-qwen-hackathon.pptx](docs/presentation/vexa-autopilot-qwen-hackathon.pptx)
 - Readiness checklist: [docs/READINESS_CHECKLIST.md](docs/READINESS_CHECKLIST.md)
 - Alibaba Cloud deployment guide: [docs/ALIBABA_CLOUD_DEPLOYMENT.md](docs/ALIBABA_CLOUD_DEPLOYMENT.md)
 - Public-safety boundary: [docs/PROJECT_BOUNDARY.md](docs/PROJECT_BOUNDARY.md)

@@ -14,6 +14,7 @@ const requiredFiles = [
   "docs/ALIBABA_CLOUD_DEPLOYMENT.md",
   "docs/DEMO_SCRIPT.md",
   "docs/PRESENTATION_OUTLINE.md",
+  "docs/presentation/vexa-autopilot-qwen-hackathon.pptx",
   "docs/READINESS_CHECKLIST.md",
   "docs/PROJECT_BOUNDARY.md",
   "scripts/verify-cloud-url.mjs",

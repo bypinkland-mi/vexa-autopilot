@@ -31,6 +31,7 @@ Vexa Autopilot is public-repo-ready and container-smoke-tested. It is not yet fu
 - Public GitHub repository published: `https://github.com/bypinkland-mi/vexa-autopilot`.
 - GitHub CI passed on `main`.
 - Cloud URL verifier added: `npm run verify:cloud -- <cloud-url>`.
+- Presentation deck generated: `docs/presentation/vexa-autopilot-qwen-hackathon.pptx`.
 
 ## Verified Locally
 
@@ -64,7 +65,7 @@ Observed proof:
    - `server/qwen-cloud.mjs` code proof.
 5. Record final demo video using `docs/DEMO_SCRIPT.md`.
 6. Upload the demo video publicly on YouTube, Vimeo, or Youku.
-7. Prepare/upload slides using `docs/PRESENTATION_OUTLINE.md`.
+7. Upload or attach `docs/presentation/vexa-autopilot-qwen-hackathon.pptx`.
 8. Fill Devpost from `docs/DEVPOST_SUBMISSION.md` and verify every item in `docs/SUBMISSION_AUDIT.md`.
 
 ## Known Honest Limitation
