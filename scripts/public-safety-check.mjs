@@ -15,9 +15,11 @@ const requiredFiles = [
   "docs/DEMO_SCRIPT.md",
   "docs/PRESENTATION_OUTLINE.md",
   "docs/presentation/vexa-autopilot-qwen-hackathon.pptx",
+  "docs/demo/vexa-local-demo.webm",
   "docs/READINESS_CHECKLIST.md",
   "docs/PROJECT_BOUNDARY.md",
   "scripts/verify-cloud-url.mjs",
+  "scripts/record-demo.mjs",
   ".env.example"
 ];
 

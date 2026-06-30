@@ -23,7 +23,7 @@ This audit maps the official Qwen Cloud Hackathon requirements to concrete Vexa 
 | Alibaba Cloud backend proof | `Dockerfile`, `docs/ALIBABA_CLOUD_DEPLOYMENT.md`, and `server/qwen-cloud.mjs` are ready | Alibaba Cloud deployment/proof recording pending |
 | Code file showing Alibaba Cloud service/API use | `https://github.com/bypinkland-mi/vexa-autopilot/blob/main/server/qwen-cloud.mjs` shows DashScope/Qwen API usage | Ready |
 | Architecture diagram | `docs/ARCHITECTURE.md` includes a Mermaid architecture diagram showing UI, API, Qwen Cloud/local Qwen, fallback, runner, sandbox, and approval gate | Ready |
-| Demo video under/about 3 minutes | `docs/DEMO_SCRIPT.md` gives a three-minute recording script | Recording pending |
+| Demo video under/about 3 minutes | `docs/demo/vexa-local-demo.webm` is a 1280x720 local recording artifact; `docs/DEMO_SCRIPT.md` gives a fuller three-minute narration script | Local artifact ready; public upload pending |
 | Public video URL | Use YouTube, Vimeo, or Youku according to official rules | Pending |
 | Presentation deck | `docs/presentation/vexa-autopilot-qwen-hackathon.pptx` is an 8-slide deck covering product, workflow, architecture, safety, evidence, and remaining gates | Ready |
 | Text description | `docs/DEVPOST_SUBMISSION.md` includes one-liner, inspiration, what it does, build notes, safety, and next steps | Ready |
@@ -37,7 +37,7 @@ This audit maps the official Qwen Cloud Hackathon requirements to concrete Vexa 
 2. `/api/health` response from the Alibaba Cloud URL.
 3. Alibaba Cloud proof recording link.
 4. Public demo video link.
-5. Demo recording artifact or uploaded video URL.
+5. Public demo video URL after uploading `docs/demo/vexa-local-demo.webm` or a narrated recording.
 
 ## Non-Submission Local Evidence
 

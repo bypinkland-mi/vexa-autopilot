@@ -51,6 +51,7 @@ The demo now includes two paths:
 - Submission audit: [docs/SUBMISSION_AUDIT.md](docs/SUBMISSION_AUDIT.md)
 - Final submission runbook: [docs/FINAL_SUBMISSION_RUNBOOK.md](docs/FINAL_SUBMISSION_RUNBOOK.md)
 - Demo script: [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md)
+- Local demo recording: [docs/demo/vexa-local-demo.webm](docs/demo/vexa-local-demo.webm)
 - Presentation outline: [docs/PRESENTATION_OUTLINE.md](docs/PRESENTATION_OUTLINE.md)
 - Presentation deck: [docs/presentation/vexa-autopilot-qwen-hackathon.pptx](docs/presentation/vexa-autopilot-qwen-hackathon.pptx)
 - Readiness checklist: [docs/READINESS_CHECKLIST.md](docs/READINESS_CHECKLIST.md)
