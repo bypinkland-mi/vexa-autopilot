@@ -19,6 +19,7 @@ const requiredFiles = [
   "docs/SUBMISSION_AUDIT.md",
   "docs/SUBMISSION_READINESS_REPORT.md",
   "docs/FINAL_SUBMISSION_RUNBOOK.md",
+  "docs/EXTERNAL_SUBMISSION_STEPS.md",
   "docs/DEVPOST_FINAL_PACKET.template.md",
   "docs/ALIBABA_CLOUD_DEPLOYMENT.md",
   "docs/DEMO_SCRIPT.md",

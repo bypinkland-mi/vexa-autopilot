@@ -39,6 +39,7 @@ Vexa Autopilot is public-repo-ready and container-smoke-tested. It is not yet fu
 - Alibaba ECS deployment bundle added: `deploy/alibaba/`.
 - Alibaba ECS bootstrap path added: `deploy/alibaba/bootstrap-ecs.sh`.
 - Alibaba ECS cloud-init example added: `deploy/alibaba/cloud-init.user-data.example`.
+- External submission steps added: `docs/EXTERNAL_SUBMISSION_STEPS.md`.
 - GitHub release package published: `https://github.com/bypinkland-mi/vexa-autopilot/releases/tag/v0.1-qwen-hackathon`.
 
 ## Verified Locally
@@ -64,18 +65,19 @@ Observed proof:
 
 1. Deploy the Docker image to Alibaba Cloud.
 2. Use `deploy/alibaba/README.md` for the ECS cloud-init, bootstrap, or Docker Compose path; or deploy the same Dockerfile through another Alibaba container service.
-3. Set `DASHSCOPE_API_KEY`, `QWEN_MODEL`, and `VEXA_FORCE_MOCK=0` in Alibaba Cloud for true Qwen Cloud mode.
-4. Run `npm run verify:cloud -- <cloud-url>` against the Alibaba Cloud URL.
-5. Record Alibaba Cloud proof clip:
+3. Use `docs/EXTERNAL_SUBMISSION_STEPS.md` as the short last-mile checklist.
+4. Set `DASHSCOPE_API_KEY`, `QWEN_MODEL`, and `VEXA_FORCE_MOCK=0` in Alibaba Cloud for true Qwen Cloud mode.
+5. Run `npm run verify:cloud -- <cloud-url>` against the Alibaba Cloud URL.
+6. Record Alibaba Cloud proof clip:
    - console/service running,
    - public URL,
    - `/api/health`,
    - app flow,
    - `server/qwen-cloud.mjs` code proof.
-6. Upload `docs/demo/vexa-devpost-demo.mp4`, or record a narrated variant using `docs/DEMO_SCRIPT.md`.
-7. Make the demo video public on YouTube, Vimeo, or Youku.
-8. Upload or attach `docs/presentation/vexa-autopilot-qwen-hackathon.pptx`, or use the release deck download.
-9. Fill Devpost from `docs/DEVPOST_SUBMISSION.md` and verify every item in `docs/SUBMISSION_AUDIT.md`.
+7. Upload `docs/demo/vexa-devpost-demo.mp4`, or record a narrated variant using `docs/DEMO_SCRIPT.md`.
+8. Make the demo video public on YouTube, Vimeo, or Youku.
+9. Upload or attach `docs/presentation/vexa-autopilot-qwen-hackathon.pptx`, or use the release deck download.
+10. Fill Devpost from `docs/DEVPOST_SUBMISSION.md` and verify every item in `docs/SUBMISSION_AUDIT.md`.
 
 ## Known Honest Limitation
 

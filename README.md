@@ -51,6 +51,7 @@ The demo now includes two paths:
 - Submission audit: [docs/SUBMISSION_AUDIT.md](docs/SUBMISSION_AUDIT.md)
 - Readiness report: [docs/SUBMISSION_READINESS_REPORT.md](docs/SUBMISSION_READINESS_REPORT.md)
 - Final submission runbook: [docs/FINAL_SUBMISSION_RUNBOOK.md](docs/FINAL_SUBMISSION_RUNBOOK.md)
+- External submission steps: [docs/EXTERNAL_SUBMISSION_STEPS.md](docs/EXTERNAL_SUBMISSION_STEPS.md)
 - Devpost final packet template: [docs/DEVPOST_FINAL_PACKET.template.md](docs/DEVPOST_FINAL_PACKET.template.md)
 - Demo script: [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md)
 - Devpost-ready demo video: [docs/demo/vexa-devpost-demo.mp4](docs/demo/vexa-devpost-demo.mp4)

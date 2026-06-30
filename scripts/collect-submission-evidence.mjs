@@ -16,6 +16,7 @@ const releaseVideoUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/vexa-l
 const releaseFinalDemoUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/vexa-devpost-demo.mp4`;
 const releasePackageUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/SUBMISSION_PACKAGE.md`;
 const releaseFinalPacketTemplateUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/DEVPOST_FINAL_PACKET.template.md`;
+const releaseReadinessReportUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/SUBMISSION_READINESS_REPORT.md`;
 
 const checks = {
   latestCi: exec("gh", [
@@ -45,6 +46,8 @@ const artifacts = [
   ["Demo video MP4", "docs/demo/vexa-local-demo.mp4"],
   ["Demo video WebM", "docs/demo/vexa-local-demo.webm"],
   ["Devpost final packet template", "docs/DEVPOST_FINAL_PACKET.template.md"],
+  ["Submission readiness report", "docs/SUBMISSION_READINESS_REPORT.md"],
+  ["External submission steps", "docs/EXTERNAL_SUBMISSION_STEPS.md"],
   ["Alibaba ECS deployment bundle", "deploy/alibaba"]
 ];
 
@@ -88,6 +91,7 @@ updated: 2026-06-30
 - Release MP4 download: ${releaseVideoUrl}
 - Release submission package download: ${releasePackageUrl}
 - Release final packet template download: ${releaseFinalPacketTemplateUrl}
+- Release readiness report download: ${releaseReadinessReportUrl}
 - Live demo URL: <Alibaba Cloud URL pending>
 - Public demo video URL: <YouTube, Vimeo, or Youku URL pending>
 

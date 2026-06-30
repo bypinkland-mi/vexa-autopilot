@@ -8,6 +8,8 @@ updated: 2026-06-30
 
 Use this runbook after Sammi chooses the public GitHub owner and Alibaba Cloud account. Do not paste API keys into any file or terminal history that will be committed.
 
+For the shortest external-account checklist, use `docs/EXTERNAL_SUBMISSION_STEPS.md`.
+
 ## 1. Pre-Publish Check
 
 ```bash
@@ -121,6 +123,7 @@ Use:
 - Architecture: `docs/ARCHITECTURE.md`
 - Slides: `docs/presentation/vexa-autopilot-qwen-hackathon.pptx`
 - Final audit: `docs/SUBMISSION_AUDIT.md`
+- External checklist: `docs/EXTERNAL_SUBMISSION_STEPS.md`
 
 ## 7. Final Gate
 

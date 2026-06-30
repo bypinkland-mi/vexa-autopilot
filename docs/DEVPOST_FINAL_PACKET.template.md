@@ -76,6 +76,12 @@ Release package:
 https://github.com/bypinkland-mi/vexa-autopilot/releases/tag/v0.1-qwen-hackathon
 ```
 
+Readiness report:
+
+```text
+https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/SUBMISSION_READINESS_REPORT.md
+```
+
 Architecture:
 
 ```text
