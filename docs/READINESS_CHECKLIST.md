@@ -25,6 +25,7 @@ Vexa Autopilot is repo-ready and container-smoke-tested. It is not yet fully sub
 - Demo video script added.
 - Architecture diagram added.
 - Submission audit added.
+- Final submission runbook added.
 - Alibaba Cloud deployment proof guide added.
 - Public-safety checker added.
 

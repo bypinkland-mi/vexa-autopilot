@@ -49,6 +49,7 @@ The demo now includes two paths:
 - Architecture: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
 - Devpost copy: [docs/DEVPOST_SUBMISSION.md](docs/DEVPOST_SUBMISSION.md)
 - Submission audit: [docs/SUBMISSION_AUDIT.md](docs/SUBMISSION_AUDIT.md)
+- Final submission runbook: [docs/FINAL_SUBMISSION_RUNBOOK.md](docs/FINAL_SUBMISSION_RUNBOOK.md)
 - Demo script: [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md)
 - Presentation outline: [docs/PRESENTATION_OUTLINE.md](docs/PRESENTATION_OUTLINE.md)
 - Readiness checklist: [docs/READINESS_CHECKLIST.md](docs/READINESS_CHECKLIST.md)

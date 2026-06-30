@@ -10,6 +10,7 @@ const requiredFiles = [
   "docs/ARCHITECTURE.md",
   "docs/DEVPOST_SUBMISSION.md",
   "docs/SUBMISSION_AUDIT.md",
+  "docs/FINAL_SUBMISSION_RUNBOOK.md",
   "docs/ALIBABA_CLOUD_DEPLOYMENT.md",
   "docs/DEMO_SCRIPT.md",
   "docs/PRESENTATION_OUTLINE.md",

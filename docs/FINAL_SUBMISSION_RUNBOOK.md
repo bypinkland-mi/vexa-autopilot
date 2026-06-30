@@ -1,0 +1,115 @@
+---
+title: Vexa Final Submission Runbook
+created: 2026-06-30
+updated: 2026-06-30
+---
+
+# Vexa Final Submission Runbook
+
+Use this runbook after Sammi chooses the public GitHub owner and Alibaba Cloud account. Do not paste API keys into any file or terminal history that will be committed.
+
+## 1. Pre-Publish Check
+
+```bash
+npm run check:submission
+git status --short
+git log --oneline --decorate -1
+```
+
+Expected:
+
+- `npm run check:submission` passes.
+- `git status --short` is empty.
+- Latest commit is the Vexa hackathon submission commit.
+
+## 2. Publish Public GitHub Repository
+
+Choose the account/owner intentionally. The local `gh` active account may not be the intended public owner.
+
+```bash
+gh auth status
+gh auth switch --user <chosen-github-user>
+gh repo create <chosen-github-user>/vexa-autopilot --public --source=. --remote=origin --push
+```
+
+After publish:
+
+```bash
+gh repo view <chosen-github-user>/vexa-autopilot --web
+```
+
+Devpost needs the public repository URL and a direct code link to:
+
+```text
+server/qwen-cloud.mjs
+```
+
+## 3. Deploy To Alibaba Cloud
+
+Any container-capable Alibaba Cloud service is acceptable if the proof shows the backend running on Alibaba Cloud.
+
+Recommended simple path:
+
+1. Build the Docker image from this repo.
+2. Deploy it to Alibaba Cloud as a container app or ECS Docker service.
+3. Set these runtime environment variables in the cloud console:
+
+```bash
+DASHSCOPE_API_KEY=<set in Alibaba Cloud secret/env UI>
+DASHSCOPE_BASE_URL=https://dashscope-us.aliyuncs.com/compatible-mode/v1
+QWEN_MODEL=qwen-plus
+VEXA_FORCE_MOCK=0
+VEXA_HOST=0.0.0.0
+VEXA_API_PORT=8080
+VEXA_SANDBOX_ORIGIN=<public-or-internal-app-origin>
+```
+
+If Qwen credentials are not ready, deploy first with:
+
+```bash
+VEXA_FORCE_MOCK=1
+VEXA_HOST=0.0.0.0
+VEXA_API_PORT=8080
+```
+
+Then repeat with Qwen enabled before the final demo if possible.
+
+## 4. Cloud Smoke Test
+
+Replace `<cloud-url>` with the Alibaba Cloud URL.
+
+```bash
+curl -s <cloud-url>/api/health
+curl -s <cloud-url>/api/browser-agent/run \
+  -H 'Content-Type: application/json' \
+  -d '{"objective":"Open the demo storefront, find the refund policy, compare it with checkout copy, then draft a customer reply."}'
+```
+
+Expected:
+
+- `/api/health` returns service metadata and the selected provider.
+- Browser-agent run returns a trace, evidence, and a pause-before-approval result.
+
+## 5. Record Proof
+
+Record two separate public-safe clips:
+
+- Alibaba Cloud proof: console/service running, public URL, `/api/health`, app workflow, and code link to `server/qwen-cloud.mjs`.
+- Main demo video: under/about three minutes using `docs/DEMO_SCRIPT.md`.
+
+Upload the main demo video publicly to YouTube, Vimeo, or Youku.
+
+## 6. Devpost Fields
+
+Use:
+
+- Project name: `Vexa Autopilot`
+- Track: `Track 4: Autopilot Agent`
+- Text copy: `docs/DEVPOST_SUBMISSION.md`
+- Architecture: `docs/ARCHITECTURE.md`
+- Slides: `docs/PRESENTATION_OUTLINE.md`
+- Final audit: `docs/SUBMISSION_AUDIT.md`
+
+## 7. Final Gate
+
+Before clicking submit, verify every row in `docs/SUBMISSION_AUDIT.md` has external evidence, not only local evidence.
