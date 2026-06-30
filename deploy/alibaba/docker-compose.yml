@@ -1,0 +1,11 @@
+services:
+  vexa-autopilot:
+    build:
+      context: ../..
+      dockerfile: Dockerfile
+    image: vexa-autopilot:alibaba
+    env_file:
+      - env.alibaba
+    ports:
+      - "8080:8080"
+    restart: unless-stopped

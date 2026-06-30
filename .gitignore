@@ -4,6 +4,7 @@ build/
 .env
 .env.*
 !.env.example
+deploy/alibaba/env.alibaba
 .DS_Store
 *.log
 coverage/

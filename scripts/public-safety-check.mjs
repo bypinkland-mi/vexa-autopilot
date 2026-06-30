@@ -5,6 +5,11 @@ const root = process.cwd();
 const requiredFiles = [
   "LICENSE",
   "Dockerfile",
+  "deploy/alibaba/README.md",
+  "deploy/alibaba/docker-compose.yml",
+  "deploy/alibaba/env.alibaba.example",
+  "deploy/alibaba/install-ecs-docker.sh",
+  "deploy/alibaba/vexa-autopilot.service",
   "README.md",
   "docs/HACKATHON_DEMO.md",
   "docs/ARCHITECTURE.md",
@@ -23,6 +28,7 @@ const requiredFiles = [
   "scripts/verify-cloud-url.mjs",
   "scripts/record-demo.mjs",
   "scripts/collect-submission-evidence.mjs",
+  "scripts/check-deploy-bundle.mjs",
   ".env.example"
 ];
 
@@ -37,6 +43,9 @@ const textExtensions = new Set([
   ".ts",
   ".tsx",
   ".txt",
+  ".example",
+  ".service",
+  ".sh",
   ".yml",
   ".yaml"
 ]);

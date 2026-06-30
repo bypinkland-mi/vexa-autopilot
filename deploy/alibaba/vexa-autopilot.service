@@ -1,0 +1,15 @@
+[Unit]
+Description=Vexa Autopilot Alibaba Cloud demo
+Requires=docker.service
+After=docker.service network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/vexa-autopilot
+RemainAfterExit=yes
+ExecStart=/usr/bin/docker compose -f deploy/alibaba/docker-compose.yml up -d --build
+ExecStop=/usr/bin/docker compose -f deploy/alibaba/docker-compose.yml down
+TimeoutStartSec=0
+
+[Install]
+WantedBy=multi-user.target

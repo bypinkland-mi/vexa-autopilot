@@ -1,4 +1,4 @@
-import { mkdir, stat, writeFile } from "node:fs/promises";
+import { mkdir, readdir, stat, writeFile } from "node:fs/promises";
 import { execFileSync } from "node:child_process";
 import path from "node:path";
 
@@ -8,6 +8,7 @@ const repoUrl = "https://github.com/bypinkland-mi/vexa-autopilot";
 const codeProofUrl = `${repoUrl}/blob/main/server/qwen-cloud.mjs`;
 const deckUrl = `${repoUrl}/blob/main/docs/presentation/vexa-autopilot-qwen-hackathon.pptx`;
 const videoArtifactUrl = `${repoUrl}/blob/main/docs/demo/vexa-local-demo.mp4`;
+const alibabaDeployBundleUrl = `${repoUrl}/tree/main/deploy/alibaba`;
 
 const checks = {
   latestCi: exec("gh", [
@@ -34,7 +35,8 @@ const checks = {
 const artifacts = [
   ["Presentation deck", "docs/presentation/vexa-autopilot-qwen-hackathon.pptx"],
   ["Demo video MP4", "docs/demo/vexa-local-demo.mp4"],
-  ["Demo video WebM", "docs/demo/vexa-local-demo.webm"]
+  ["Demo video WebM", "docs/demo/vexa-local-demo.webm"],
+  ["Alibaba ECS deployment bundle", "deploy/alibaba"]
 ];
 
 const artifactLines = [];
@@ -42,7 +44,12 @@ for (const [label, relative] of artifacts) {
   const file = path.join(root, relative);
   try {
     const info = await stat(file);
-    artifactLines.push(`- ${label}: \`${relative}\` (${formatBytes(info.size)})`);
+    if (info.isDirectory()) {
+      const entries = await readdir(file);
+      artifactLines.push(`- ${label}: \`${relative}/\` (${entries.length} files)`);
+    } else {
+      artifactLines.push(`- ${label}: \`${relative}\` (${formatBytes(info.size)})`);
+    }
   } catch {
     artifactLines.push(`- ${label}: missing`);
   }
@@ -62,6 +69,7 @@ updated: 2026-06-30
 - Track: Track 4: Autopilot Agent
 - Repository: ${repoUrl}
 - Qwen / Alibaba Cloud code proof: ${codeProofUrl}
+- Alibaba ECS deployment bundle: ${alibabaDeployBundleUrl}
 - Slides: ${deckUrl}
 - Demo video artifact to upload: ${videoArtifactUrl}
 - Live demo URL: <Alibaba Cloud URL pending>

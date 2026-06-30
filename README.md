@@ -58,6 +58,7 @@ The demo now includes two paths:
 - Submission package: [docs/SUBMISSION_PACKAGE.md](docs/SUBMISSION_PACKAGE.md)
 - Readiness checklist: [docs/READINESS_CHECKLIST.md](docs/READINESS_CHECKLIST.md)
 - Alibaba Cloud deployment guide: [docs/ALIBABA_CLOUD_DEPLOYMENT.md](docs/ALIBABA_CLOUD_DEPLOYMENT.md)
+- Alibaba ECS deployment bundle: [deploy/alibaba/README.md](deploy/alibaba/README.md)
 - Public-safety boundary: [docs/PROJECT_BOUNDARY.md](docs/PROJECT_BOUNDARY.md)
 
 ## Quick Start

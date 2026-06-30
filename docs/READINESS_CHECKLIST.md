@@ -34,6 +34,7 @@ Vexa Autopilot is public-repo-ready and container-smoke-tested. It is not yet fu
 - Presentation deck generated: `docs/presentation/vexa-autopilot-qwen-hackathon.pptx`.
 - Local demo recording generated: `docs/demo/vexa-local-demo.webm`.
 - Upload-ready MP4 generated: `docs/demo/vexa-local-demo.mp4`.
+- Alibaba ECS deployment bundle added: `deploy/alibaba/`.
 
 ## Verified Locally
 
@@ -57,18 +58,19 @@ Observed proof:
 ## Still Required Before Devpost Submission
 
 1. Deploy the Docker image to Alibaba Cloud.
-2. Set `DASHSCOPE_API_KEY`, `QWEN_MODEL`, and `VEXA_FORCE_MOCK=0` in Alibaba Cloud for true Qwen Cloud mode.
-3. Run `npm run verify:cloud -- <cloud-url>` against the Alibaba Cloud URL.
-4. Record Alibaba Cloud proof clip:
+2. Use `deploy/alibaba/README.md` for the ECS Docker Compose path, or deploy the same Dockerfile through another Alibaba container service.
+3. Set `DASHSCOPE_API_KEY`, `QWEN_MODEL`, and `VEXA_FORCE_MOCK=0` in Alibaba Cloud for true Qwen Cloud mode.
+4. Run `npm run verify:cloud -- <cloud-url>` against the Alibaba Cloud URL.
+5. Record Alibaba Cloud proof clip:
    - console/service running,
    - public URL,
    - `/api/health`,
    - app flow,
    - `server/qwen-cloud.mjs` code proof.
-5. Upload `docs/demo/vexa-local-demo.mp4`, or record a narrated version using `docs/DEMO_SCRIPT.md`.
-6. Make the demo video public on YouTube, Vimeo, or Youku.
-7. Upload or attach `docs/presentation/vexa-autopilot-qwen-hackathon.pptx`.
-8. Fill Devpost from `docs/DEVPOST_SUBMISSION.md` and verify every item in `docs/SUBMISSION_AUDIT.md`.
+6. Upload `docs/demo/vexa-local-demo.mp4`, or record a narrated version using `docs/DEMO_SCRIPT.md`.
+7. Make the demo video public on YouTube, Vimeo, or Youku.
+8. Upload or attach `docs/presentation/vexa-autopilot-qwen-hackathon.pptx`.
+9. Fill Devpost from `docs/DEVPOST_SUBMISSION.md` and verify every item in `docs/SUBMISSION_AUDIT.md`.
 
 ## Known Honest Limitation
 

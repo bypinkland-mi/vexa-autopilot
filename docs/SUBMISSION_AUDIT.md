@@ -20,7 +20,7 @@ This audit maps the official Qwen Cloud Hackathon requirements to concrete Vexa 
 | Project uses Qwen models available on Qwen Cloud | `server/qwen-cloud.mjs` implements DashScope/Qwen OpenAI-compatible calls; `.env.example` documents `DASHSCOPE_API_KEY`, `DASHSCOPE_BASE_URL`, and `QWEN_MODEL` | Code ready; live Qwen run pending credentials |
 | Public repository | `https://github.com/bypinkland-mi/vexa-autopilot`; `.gitignore` excludes secrets/build artifacts | Ready |
 | Open-source license visible at repo top | `LICENSE` is MIT; `package.json` has `"license": "MIT"` | Ready |
-| Alibaba Cloud backend proof | `Dockerfile`, `docs/ALIBABA_CLOUD_DEPLOYMENT.md`, and `server/qwen-cloud.mjs` are ready | Alibaba Cloud deployment/proof recording pending |
+| Alibaba Cloud backend proof | `Dockerfile`, `deploy/alibaba/`, `docs/ALIBABA_CLOUD_DEPLOYMENT.md`, and `server/qwen-cloud.mjs` are ready | Alibaba Cloud deployment/proof recording pending |
 | Code file showing Alibaba Cloud service/API use | `https://github.com/bypinkland-mi/vexa-autopilot/blob/main/server/qwen-cloud.mjs` shows DashScope/Qwen API usage | Ready |
 | Architecture diagram | `docs/ARCHITECTURE.md` includes a Mermaid architecture diagram showing UI, API, Qwen Cloud/local Qwen, fallback, runner, sandbox, and approval gate | Ready |
 | Demo video under/about 3 minutes | `docs/demo/vexa-local-demo.mp4` is a 1280x720 H.264 upload-ready recording artifact; `docs/demo/vexa-local-demo.webm` is also retained; `docs/DEMO_SCRIPT.md` gives a fuller three-minute narration script | Local artifact ready; public upload pending |

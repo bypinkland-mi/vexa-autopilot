@@ -54,6 +54,8 @@ https://github.com/bypinkland-mi/vexa-autopilot/blob/main/server/qwen-cloud.mjs
 
 Any container-capable Alibaba Cloud service is acceptable if the proof shows the backend running on Alibaba Cloud.
 
+For a plain ECS instance, use the ready bundle in `deploy/alibaba/`. It includes Docker Compose, an env template, an Ubuntu Docker install helper, and an optional systemd unit.
+
 Recommended simple path:
 
 1. Build the Docker image from this repo.

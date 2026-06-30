@@ -12,6 +12,7 @@ updated: 2026-06-30
 - Track: Track 4: Autopilot Agent
 - Repository: https://github.com/bypinkland-mi/vexa-autopilot
 - Qwen / Alibaba Cloud code proof: https://github.com/bypinkland-mi/vexa-autopilot/blob/main/server/qwen-cloud.mjs
+- Alibaba ECS deployment bundle: https://github.com/bypinkland-mi/vexa-autopilot/tree/main/deploy/alibaba
 - Slides: https://github.com/bypinkland-mi/vexa-autopilot/blob/main/docs/presentation/vexa-autopilot-qwen-hackathon.pptx
 - Demo video artifact to upload: https://github.com/bypinkland-mi/vexa-autopilot/blob/main/docs/demo/vexa-local-demo.mp4
 - Live demo URL: <Alibaba Cloud URL pending>
@@ -26,11 +27,12 @@ Vexa Autopilot is a Qwen-powered browser-agent sandbox that checks a storefront 
 - Presentation deck: `docs/presentation/vexa-autopilot-qwen-hackathon.pptx` (579 KB)
 - Demo video MP4: `docs/demo/vexa-local-demo.mp4` (441 KB)
 - Demo video WebM: `docs/demo/vexa-local-demo.webm` (645 KB)
+- Alibaba ECS deployment bundle: `deploy/alibaba/` (5 files)
 
 ## Verification Snapshot
 
 - GitHub repo metadata: `{"defaultBranchRef":{"name":"main"},"licenseInfo":{"key":"mit","name":"MIT License","nickname":""},"url":"https://github.com/bypinkland-mi/vexa-autopilot","visibility":"PUBLIC"}`
-- Latest GitHub CI at generation time: `[{"conclusion":"success","headSha":"be5a7ff3f8bad5faccd1277fb9cf411366aabdaa","status":"completed","url":"https://github.com/bypinkland-mi/vexa-autopilot/actions/runs/28455255035"}]`
+- Latest GitHub CI at generation time: `[{"conclusion":"success","headSha":"276132b9ca904794c95837efd0c410e2b05dd802","status":"completed","url":"https://github.com/bypinkland-mi/vexa-autopilot/actions/runs/28455740349"}]`
 - Alibaba CLI version: `3.4.2`
 - Alibaba profile: `ERROR: load configure failed: stat /Users/sammili/.aliyun/config.json: no such file or directory`
 

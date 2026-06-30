@@ -58,6 +58,30 @@ Any container-capable Alibaba Cloud service is acceptable for the proof video:
 - Alibaba Cloud Elastic Container Instance
 - Alibaba Cloud ECS running Docker
 
+## ECS Deployment Bundle
+
+This repo includes a ready-to-use ECS bundle under `deploy/alibaba/`:
+
+- `deploy/alibaba/README.md`: console/SSH deployment steps.
+- `deploy/alibaba/docker-compose.yml`: Docker Compose service for Vexa.
+- `deploy/alibaba/env.alibaba.example`: public-safe environment template.
+- `deploy/alibaba/install-ecs-docker.sh`: Ubuntu Docker install helper.
+- `deploy/alibaba/vexa-autopilot.service`: optional systemd wrapper.
+
+After cloning the repo on ECS:
+
+```bash
+cp deploy/alibaba/env.alibaba.example deploy/alibaba/env.alibaba
+nano deploy/alibaba/env.alibaba
+docker compose -f deploy/alibaba/docker-compose.yml up -d --build
+```
+
+Then verify from your local machine:
+
+```bash
+npm run verify:cloud -- http://<ecs-public-ip>:8080
+```
+
 ## Proof Recording Checklist
 
 Record a short clip showing:
