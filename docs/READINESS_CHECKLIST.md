@@ -29,6 +29,7 @@ Vexa Autopilot is public-repo-ready and container-smoke-tested. It is not yet fu
 - Alibaba Cloud deployment proof guide added.
 - Public-safety checker added.
 - Devpost requirements matrix added: `docs/DEVPOST_REQUIREMENTS_MATRIX.md`.
+- Submission bundle manifest added: `docs/SUBMISSION_BUNDLE_MANIFEST.md`.
 - Public GitHub repository published: `https://github.com/bypinkland-mi/vexa-autopilot`.
 - GitHub CI passed on `main`.
 - Cloud URL verifier added: `npm run verify:cloud -- <cloud-url>`.

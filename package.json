@@ -24,6 +24,7 @@
     "verify:submission-links": "node scripts/verify-submission-links.mjs",
     "final:submission": "node scripts/final-submission-gate.mjs",
     "finalize:devpost": "node scripts/finalize-devpost-packet.mjs",
+    "build:submission-bundle": "node scripts/build-submission-bundle.mjs",
     "demo:mock": "VEXA_FORCE_MOCK=1 node server/index.mjs"
   },
   "dependencies": {

@@ -50,6 +50,7 @@ The demo now includes two paths:
 - Devpost copy: [docs/DEVPOST_SUBMISSION.md](docs/DEVPOST_SUBMISSION.md)
 - Submission audit: [docs/SUBMISSION_AUDIT.md](docs/SUBMISSION_AUDIT.md)
 - Devpost requirements matrix: [docs/DEVPOST_REQUIREMENTS_MATRIX.md](docs/DEVPOST_REQUIREMENTS_MATRIX.md)
+- Submission bundle manifest: [docs/SUBMISSION_BUNDLE_MANIFEST.md](docs/SUBMISSION_BUNDLE_MANIFEST.md)
 - Readiness report: [docs/SUBMISSION_READINESS_REPORT.md](docs/SUBMISSION_READINESS_REPORT.md)
 - Submission links report: [docs/SUBMISSION_LINKS_REPORT.md](docs/SUBMISSION_LINKS_REPORT.md)
 - Final submission gate report: [docs/FINAL_SUBMISSION_GATE_REPORT.md](docs/FINAL_SUBMISSION_GATE_REPORT.md)
