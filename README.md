@@ -56,6 +56,7 @@ The demo now includes two paths:
 - Presentation outline: [docs/PRESENTATION_OUTLINE.md](docs/PRESENTATION_OUTLINE.md)
 - Presentation deck: [docs/presentation/vexa-autopilot-qwen-hackathon.pptx](docs/presentation/vexa-autopilot-qwen-hackathon.pptx)
 - Submission package: [docs/SUBMISSION_PACKAGE.md](docs/SUBMISSION_PACKAGE.md)
+- GitHub release package: [v0.1-qwen-hackathon](https://github.com/bypinkland-mi/vexa-autopilot/releases/tag/v0.1-qwen-hackathon)
 - Readiness checklist: [docs/READINESS_CHECKLIST.md](docs/READINESS_CHECKLIST.md)
 - Alibaba Cloud deployment guide: [docs/ALIBABA_CLOUD_DEPLOYMENT.md](docs/ALIBABA_CLOUD_DEPLOYMENT.md)
 - Alibaba ECS deployment bundle: [deploy/alibaba/README.md](deploy/alibaba/README.md)

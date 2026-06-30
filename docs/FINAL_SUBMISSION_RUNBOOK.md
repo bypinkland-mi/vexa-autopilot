@@ -115,6 +115,7 @@ Use:
 
 - Project name: `Vexa Autopilot`
 - Track: `Track 4: Autopilot Agent`
+- GitHub release package: `https://github.com/bypinkland-mi/vexa-autopilot/releases/tag/v0.1-qwen-hackathon`
 - Local video artifact: `docs/demo/vexa-local-demo.mp4`
 - Text copy: `docs/DEVPOST_SUBMISSION.md`
 - Architecture: `docs/ARCHITECTURE.md`

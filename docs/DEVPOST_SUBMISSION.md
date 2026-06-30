@@ -62,9 +62,12 @@ Vexa does not control a real user browser profile, does not access external site
 ## Links To Prepare
 
 - Code repository: `https://github.com/bypinkland-mi/vexa-autopilot`
+- GitHub release package: `https://github.com/bypinkland-mi/vexa-autopilot/releases/tag/v0.1-qwen-hackathon`
 - Qwen Cloud code proof: `https://github.com/bypinkland-mi/vexa-autopilot/blob/main/server/qwen-cloud.mjs`
 - Alibaba ECS deployment bundle: `https://github.com/bypinkland-mi/vexa-autopilot/tree/main/deploy/alibaba`
 - Live demo: `<Alibaba Cloud URL>`
 - Demo video: `<public YouTube, Vimeo, or Youku URL>`
 - Local video artifact to upload: `docs/demo/vexa-local-demo.mp4`
 - Slides: `https://github.com/bypinkland-mi/vexa-autopilot/blob/main/docs/presentation/vexa-autopilot-qwen-hackathon.pptx`
+- Release MP4 download: `https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/vexa-local-demo.mp4`
+- Release deck download: `https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/vexa-autopilot-qwen-hackathon.pptx`

@@ -11,10 +11,14 @@ updated: 2026-06-30
 - Project name: Vexa Autopilot
 - Track: Track 4: Autopilot Agent
 - Repository: https://github.com/bypinkland-mi/vexa-autopilot
+- GitHub release package: https://github.com/bypinkland-mi/vexa-autopilot/releases/tag/v0.1-qwen-hackathon
 - Qwen / Alibaba Cloud code proof: https://github.com/bypinkland-mi/vexa-autopilot/blob/main/server/qwen-cloud.mjs
 - Alibaba ECS deployment bundle: https://github.com/bypinkland-mi/vexa-autopilot/tree/main/deploy/alibaba
 - Slides: https://github.com/bypinkland-mi/vexa-autopilot/blob/main/docs/presentation/vexa-autopilot-qwen-hackathon.pptx
 - Demo video artifact to upload: https://github.com/bypinkland-mi/vexa-autopilot/blob/main/docs/demo/vexa-local-demo.mp4
+- Release deck download: https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/vexa-autopilot-qwen-hackathon.pptx
+- Release MP4 download: https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/vexa-local-demo.mp4
+- Release submission package download: https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/SUBMISSION_PACKAGE.md
 - Live demo URL: <Alibaba Cloud URL pending>
 - Public demo video URL: <YouTube, Vimeo, or Youku URL pending>
 
@@ -32,7 +36,7 @@ Vexa Autopilot is a Qwen-powered browser-agent sandbox that checks a storefront 
 ## Verification Snapshot
 
 - GitHub repo metadata: `{"defaultBranchRef":{"name":"main"},"licenseInfo":{"key":"mit","name":"MIT License","nickname":""},"url":"https://github.com/bypinkland-mi/vexa-autopilot","visibility":"PUBLIC"}`
-- Latest GitHub CI at generation time: `[{"conclusion":"success","headSha":"276132b9ca904794c95837efd0c410e2b05dd802","status":"completed","url":"https://github.com/bypinkland-mi/vexa-autopilot/actions/runs/28455740349"}]`
+- Latest GitHub CI at generation time: `[{"conclusion":"success","headSha":"ad9d245f25ec208b64bd40e0fb67e68a78d77ad6","status":"completed","url":"https://github.com/bypinkland-mi/vexa-autopilot/actions/runs/28456145864"}]`
 - Alibaba CLI version: `3.4.2`
 - Alibaba profile: `ERROR: load configure failed: stat /Users/sammili/.aliyun/config.json: no such file or directory`
 

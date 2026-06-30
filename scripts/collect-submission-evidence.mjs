@@ -5,10 +5,14 @@ import path from "node:path";
 const root = process.cwd();
 const outFile = path.join(root, "docs/SUBMISSION_PACKAGE.md");
 const repoUrl = "https://github.com/bypinkland-mi/vexa-autopilot";
+const releaseUrl = `${repoUrl}/releases/tag/v0.1-qwen-hackathon`;
 const codeProofUrl = `${repoUrl}/blob/main/server/qwen-cloud.mjs`;
 const deckUrl = `${repoUrl}/blob/main/docs/presentation/vexa-autopilot-qwen-hackathon.pptx`;
 const videoArtifactUrl = `${repoUrl}/blob/main/docs/demo/vexa-local-demo.mp4`;
 const alibabaDeployBundleUrl = `${repoUrl}/tree/main/deploy/alibaba`;
+const releaseDeckUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/vexa-autopilot-qwen-hackathon.pptx`;
+const releaseVideoUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/vexa-local-demo.mp4`;
+const releasePackageUrl = `${repoUrl}/releases/download/v0.1-qwen-hackathon/SUBMISSION_PACKAGE.md`;
 
 const checks = {
   latestCi: exec("gh", [
@@ -68,10 +72,14 @@ updated: 2026-06-30
 - Project name: Vexa Autopilot
 - Track: Track 4: Autopilot Agent
 - Repository: ${repoUrl}
+- GitHub release package: ${releaseUrl}
 - Qwen / Alibaba Cloud code proof: ${codeProofUrl}
 - Alibaba ECS deployment bundle: ${alibabaDeployBundleUrl}
 - Slides: ${deckUrl}
 - Demo video artifact to upload: ${videoArtifactUrl}
+- Release deck download: ${releaseDeckUrl}
+- Release MP4 download: ${releaseVideoUrl}
+- Release submission package download: ${releasePackageUrl}
 - Live demo URL: <Alibaba Cloud URL pending>
 - Public demo video URL: <YouTube, Vimeo, or Youku URL pending>
 

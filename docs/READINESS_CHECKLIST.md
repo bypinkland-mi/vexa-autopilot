@@ -35,6 +35,7 @@ Vexa Autopilot is public-repo-ready and container-smoke-tested. It is not yet fu
 - Local demo recording generated: `docs/demo/vexa-local-demo.webm`.
 - Upload-ready MP4 generated: `docs/demo/vexa-local-demo.mp4`.
 - Alibaba ECS deployment bundle added: `deploy/alibaba/`.
+- GitHub release package published: `https://github.com/bypinkland-mi/vexa-autopilot/releases/tag/v0.1-qwen-hackathon`.
 
 ## Verified Locally
 
@@ -69,7 +70,7 @@ Observed proof:
    - `server/qwen-cloud.mjs` code proof.
 6. Upload `docs/demo/vexa-local-demo.mp4`, or record a narrated version using `docs/DEMO_SCRIPT.md`.
 7. Make the demo video public on YouTube, Vimeo, or Youku.
-8. Upload or attach `docs/presentation/vexa-autopilot-qwen-hackathon.pptx`.
+8. Upload or attach `docs/presentation/vexa-autopilot-qwen-hackathon.pptx`, or use the release deck download.
 9. Fill Devpost from `docs/DEVPOST_SUBMISSION.md` and verify every item in `docs/SUBMISSION_AUDIT.md`.
 
 ## Known Honest Limitation
