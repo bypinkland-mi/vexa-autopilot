@@ -76,6 +76,9 @@ jsonCommandCheck(
       "vexa-devpost-demo.mp4",
       "vexa-autopilot-qwen-hackathon.pptx",
       "SUBMISSION_PACKAGE.md",
+      "SUBMISSION_READINESS_REPORT.md",
+      "SUBMISSION_LINKS_REPORT.md",
+      "EXTERNAL_SUBMISSION_STEPS.md",
       "DEVPOST_FINAL_PACKET.template.md",
       "bootstrap-ecs.sh",
       "cloud-init.user-data.example"

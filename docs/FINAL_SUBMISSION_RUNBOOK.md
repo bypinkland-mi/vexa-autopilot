@@ -131,12 +131,18 @@ Audit the current submission state:
 
 ```bash
 npm run audit:submission
+npm run verify:submission-links
 ```
 
 After the external URLs exist, run:
 
 ```bash
 npm run audit:submission -- \
+  --cloud-url <Alibaba Cloud URL> \
+  --video-url <YouTube, Vimeo, or Youku URL> \
+  --proof-url <Alibaba Cloud proof recording URL>
+
+npm run verify:submission-links -- \
   --cloud-url <Alibaba Cloud URL> \
   --video-url <YouTube, Vimeo, or Youku URL> \
   --proof-url <Alibaba Cloud proof recording URL>

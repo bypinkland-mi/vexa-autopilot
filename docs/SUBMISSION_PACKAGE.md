@@ -23,6 +23,7 @@ updated: 2026-06-30
 - Release submission package download: https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/SUBMISSION_PACKAGE.md
 - Release final packet template download: https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/DEVPOST_FINAL_PACKET.template.md
 - Release readiness report download: https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/SUBMISSION_READINESS_REPORT.md
+- Release links report download: https://github.com/bypinkland-mi/vexa-autopilot/releases/download/v0.1-qwen-hackathon/SUBMISSION_LINKS_REPORT.md
 - Live demo URL: <Alibaba Cloud URL pending>
 - Public demo video URL: <YouTube, Vimeo, or Youku URL pending>
 
@@ -38,13 +39,14 @@ Vexa Autopilot is a Qwen-powered browser-agent sandbox that checks a storefront 
 - Demo video WebM: `docs/demo/vexa-local-demo.webm` (645 KB)
 - Devpost final packet template: `docs/DEVPOST_FINAL_PACKET.template.md` (3 KB)
 - Submission readiness report: `docs/SUBMISSION_READINESS_REPORT.md` (3 KB)
+- Submission links report: `docs/SUBMISSION_LINKS_REPORT.md` (3 KB)
 - External submission steps: `docs/EXTERNAL_SUBMISSION_STEPS.md` (3 KB)
 - Alibaba ECS deployment bundle: `deploy/alibaba/` (7 files)
 
 ## Verification Snapshot
 
 - GitHub repo metadata: `{"defaultBranchRef":{"name":"main"},"licenseInfo":{"key":"mit","name":"MIT License","nickname":""},"url":"https://github.com/bypinkland-mi/vexa-autopilot","visibility":"PUBLIC"}`
-- Latest GitHub CI at generation time: `[{"conclusion":"success","headSha":"f0c8075b80bc5f267e850ffbab912e9a066f4401","status":"completed","url":"https://github.com/bypinkland-mi/vexa-autopilot/actions/runs/28458318513"}]`
+- Latest GitHub CI at generation time: `[{"conclusion":"success","headSha":"79070b549d8d2a2ce03ea9784f833d651d338fd9","status":"completed","url":"https://github.com/bypinkland-mi/vexa-autopilot/actions/runs/28458618831"}]`
 - Alibaba CLI version: `3.4.2`
 - Alibaba profile: `ERROR: load configure failed: stat /Users/sammili/.aliyun/config.json: no such file or directory`
 
